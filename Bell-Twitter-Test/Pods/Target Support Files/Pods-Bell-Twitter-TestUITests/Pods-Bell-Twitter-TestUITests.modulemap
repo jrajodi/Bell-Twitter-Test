@@ -1,0 +1,6 @@
+framework module Pods_Bell_Twitter_TestUITests {
+  umbrella header "Pods-Bell-Twitter-TestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
