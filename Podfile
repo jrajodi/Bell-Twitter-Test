@@ -6,7 +6,7 @@ target 'Bell-Twitter-Test' do
   use_frameworks!
 
   # Pods for Bell-Twitter-Test
-  pod 'Alamofire', '~> 5.0.0-rc.2'
+  pod 'Alamofire', '~> 4.7'
   pod 'TwitterKit'
 
   target 'Bell-Twitter-TestTests' do

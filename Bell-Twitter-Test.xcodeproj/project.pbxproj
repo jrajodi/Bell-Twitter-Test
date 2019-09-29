@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,16 @@
 		198249CF233F258900A3244B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198249CD233F258900A3244B /* LaunchScreen.storyboard */; };
 		198249DA233F258900A3244B /* Bell_Twitter_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198249D9233F258900A3244B /* Bell_Twitter_TestTests.swift */; };
 		198249E5233F258900A3244B /* Bell_Twitter_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198249E4233F258900A3244B /* Bell_Twitter_TestUITests.swift */; };
+		198249FC233F2CFF00A3244B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198249FB233F2CFF00A3244B /* Constant.swift */; };
+		19824A01233F3BA400A3244B /* APIPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19824A00233F3BA400A3244B /* APIPaths.swift */; };
+		19824A03233F3BE500A3244B /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19824A02233F3BE500A3244B /* APIManager.swift */; };
+		19824A05233F3C8800A3244B /* TweetsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19824A04233F3C8800A3244B /* TweetsResponse.swift */; };
+		19824A07233F3CCC00A3244B /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19824A06233F3CCC00A3244B /* Tweet.swift */; };
+		19824A09233F3CE800A3244B /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19824A08233F3CE800A3244B /* Place.swift */; };
+		19824A0B233F3D2000A3244B /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19824A0A233F3D2000A3244B /* BoundingBox.swift */; };
+		19824A0E233F3D6800A3244B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19824A0D233F3D6800A3244B /* LocationManager.swift */; };
+		19824A10233F3E1A00A3244B /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19824A0F233F3E1A00A3244B /* Strings.swift */; };
+		19824A12233F3E5600A3244B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19824A11233F3E5600A3244B /* Data.swift */; };
 		1B9EB3FB579DF74B161FC17C /* Pods_Bell_Twitter_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDC7ACC9FABD030B4BCAFD9 /* Pods_Bell_Twitter_TestTests.framework */; };
 		C492E95F0FC88F483F07D4B4 /* Pods_Bell_Twitter_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3406CA5593ABE91388B671CF /* Pods_Bell_Twitter_Test.framework */; };
 		DD07651D811F7062FF70A499 /* Pods_Bell_Twitter_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C017297C790C9F1D40154C9F /* Pods_Bell_Twitter_TestUITests.framework */; };
@@ -50,6 +60,16 @@
 		198249E0233F258900A3244B /* Bell-Twitter-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bell-Twitter-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		198249E4233F258900A3244B /* Bell_Twitter_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bell_Twitter_TestUITests.swift; sourceTree = "<group>"; };
 		198249E6233F258900A3244B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		198249FB233F2CFF00A3244B /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		19824A00233F3BA400A3244B /* APIPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIPaths.swift; sourceTree = "<group>"; };
+		19824A02233F3BE500A3244B /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		19824A04233F3C8800A3244B /* TweetsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsResponse.swift; sourceTree = "<group>"; };
+		19824A06233F3CCC00A3244B /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		19824A08233F3CE800A3244B /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		19824A0A233F3D2000A3244B /* BoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBox.swift; sourceTree = "<group>"; };
+		19824A0D233F3D6800A3244B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		19824A0F233F3E1A00A3244B /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		19824A11233F3E5600A3244B /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		2BF302F5BEB923B86939132A /* Pods-Bell-Twitter-TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bell-Twitter-TestTests.debug.xcconfig"; path = "Target Support Files/Pods-Bell-Twitter-TestTests/Pods-Bell-Twitter-TestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3406CA5593ABE91388B671CF /* Pods_Bell_Twitter_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bell_Twitter_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC5FC3324733972963BA827 /* Pods-Bell-Twitter-TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bell-Twitter-TestTests.release.xcconfig"; path = "Target Support Files/Pods-Bell-Twitter-TestTests/Pods-Bell-Twitter-TestTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,11 +134,14 @@
 		198249C3233F258700A3244B /* Bell-Twitter-Test */ = {
 			isa = PBXGroup;
 			children = (
-				198249C4233F258700A3244B /* AppDelegate.swift */,
-				198249C6233F258700A3244B /* ViewController.swift */,
-				198249C8233F258700A3244B /* Main.storyboard */,
-				198249CB233F258900A3244B /* Assets.xcassets */,
-				198249CD233F258900A3244B /* LaunchScreen.storyboard */,
+				198249F6233F2BBE00A3244B /* Core */,
+				198249F4233F2B9900A3244B /* Shared */,
+				198249F8233F2BD900A3244B /* Models */,
+				198249F3233F2B8F00A3244B /* Extensions */,
+				198249F5233F2BA000A3244B /* UseCases */,
+				198249F9233F2C4600A3244B /* Storyboards */,
+				198249F2233F29F100A3244B /* AppDelegate */,
+				198249F7233F2BC600A3244B /* Resources */,
 				198249D0233F258900A3244B /* Info.plist */,
 			);
 			path = "Bell-Twitter-Test";
@@ -142,6 +165,101 @@
 			path = "Bell-Twitter-TestUITests";
 			sourceTree = "<group>";
 		};
+		198249F2233F29F100A3244B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				198249C4233F258700A3244B /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		198249F3233F2B8F00A3244B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				19824A0F233F3E1A00A3244B /* Strings.swift */,
+				19824A11233F3E5600A3244B /* Data.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		198249F4233F2B9900A3244B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				19824A0C233F3D5000A3244B /* LocationManager */,
+				198249FA233F2CDA00A3244B /* Constants */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		198249F5233F2BA000A3244B /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				198249C8233F258700A3244B /* Main.storyboard */,
+				198249C6233F258700A3244B /* ViewController.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		198249F6233F2BBE00A3244B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				198249FD233F3AD200A3244B /* APIManager */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		198249F7233F2BC600A3244B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				198249CB233F258900A3244B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		198249F8233F2BD900A3244B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				19824A06233F3CCC00A3244B /* Tweet.swift */,
+				19824A08233F3CE800A3244B /* Place.swift */,
+				19824A0A233F3D2000A3244B /* BoundingBox.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		198249F9233F2C4600A3244B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				198249CD233F258900A3244B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		198249FA233F2CDA00A3244B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				198249FB233F2CFF00A3244B /* Constant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		198249FD233F3AD200A3244B /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				19824A00233F3BA400A3244B /* APIPaths.swift */,
+				19824A02233F3BE500A3244B /* APIManager.swift */,
+				19824A04233F3C8800A3244B /* TweetsResponse.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		19824A0C233F3D5000A3244B /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				19824A0D233F3D6800A3244B /* LocationManager.swift */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
 		9B78CDB569EAE54A1C0DB8EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,7 +280,6 @@
 				DC156D22A1DD4C594D3788DB /* Pods-Bell-Twitter-TestUITests.debug.xcconfig */,
 				7CB36749916A259029BE9F2F /* Pods-Bell-Twitter-TestUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -405,8 +522,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19824A03233F3BE500A3244B /* APIManager.swift in Sources */,
 				198249C7233F258700A3244B /* ViewController.swift in Sources */,
 				198249C5233F258700A3244B /* AppDelegate.swift in Sources */,
+				19824A0E233F3D6800A3244B /* LocationManager.swift in Sources */,
+				19824A01233F3BA400A3244B /* APIPaths.swift in Sources */,
+				19824A0B233F3D2000A3244B /* BoundingBox.swift in Sources */,
+				198249FC233F2CFF00A3244B /* Constant.swift in Sources */,
+				19824A12233F3E5600A3244B /* Data.swift in Sources */,
+				19824A09233F3CE800A3244B /* Place.swift in Sources */,
+				19824A05233F3C8800A3244B /* TweetsResponse.swift in Sources */,
+				19824A10233F3E1A00A3244B /* Strings.swift in Sources */,
+				19824A07233F3CCC00A3244B /* Tweet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,7 +710,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZFF6L7H29C;
 				INFOPLIST_FILE = "Bell-Twitter-Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -601,7 +730,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZFF6L7H29C;
 				INFOPLIST_FILE = "Bell-Twitter-Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
