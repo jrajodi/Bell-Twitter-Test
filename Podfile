@@ -11,7 +11,8 @@ target 'Bell-Twitter-Test' do
 
   target 'Bell-Twitter-TestTests' do
     inherit! :search_paths
-    # Pods for testing
+    pod 'Alamofire', '~> 4.7'
+    pod 'TwitterKit'
   end
 
   target 'Bell-Twitter-TestUITests' do

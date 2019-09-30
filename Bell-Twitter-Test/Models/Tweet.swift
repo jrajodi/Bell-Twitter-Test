@@ -9,16 +9,14 @@
 import Foundation
 
 struct Tweet: Decodable {
-    
-    // MARK: - Properties
+
     var id: Int = 0
     var text: String?
     var name: String = ""
     var displayName: String?
     var profileImage: String?
     var place: Place?
-    
-    // MARK: - Enums
+
     enum CodingKeys: String, CodingKey {
         
         case id
@@ -30,7 +28,6 @@ struct Tweet: Decodable {
         case place
     }
     
-    // MARK: - Decoder for parsing the data into your Custom Model
     init(from decoder: Decoder) throws {
         
         do {

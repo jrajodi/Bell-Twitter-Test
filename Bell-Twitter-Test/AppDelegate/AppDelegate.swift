@@ -18,6 +18,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         setupTwitterSettings()
         return true
     }
+    
+    internal func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        return TWTRTwitter.sharedInstance().application(app, open: url, options: options)
+    }
 }
 
 // MARK: - Helper Methods

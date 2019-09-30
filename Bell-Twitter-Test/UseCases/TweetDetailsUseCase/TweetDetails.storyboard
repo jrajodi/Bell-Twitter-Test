@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DDm-7Z-IpD">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tweet Details View Controller-->
+        <scene sceneID="QaP-Q4-WFq">
+            <objects>
+                <viewController id="DDm-7Z-IpD" customClass="TweetDetailsViewController" customModule="Bell_Twitter_Test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v7Q-vs-Wse">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fVv-04-i2T">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="732"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="5mX-Ie-qlj">
+                                <rect key="frame" x="134.5" y="782" width="145" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ih3-RB-sVO">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                        <state key="normal" image="btn_re_tweet"/>
+                                        <connections>
+                                            <action selector="actionReTweet:" destination="DDm-7Z-IpD" eventType="touchUpInside" id="hSS-Xb-q1t"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nJq-po-Wfb">
+                                        <rect key="frame" x="85" y="0.0" width="60" height="60"/>
+                                        <state key="normal" image="btn_favorite"/>
+                                        <connections>
+                                            <action selector="actionMakeFavorite:" destination="DDm-7Z-IpD" eventType="touchUpInside" id="ort-We-h96"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fVv-04-i2T" firstAttribute="leading" secondItem="zpq-VR-oEm" secondAttribute="leading" id="3ul-Cf-1WV"/>
+                            <constraint firstItem="zpq-VR-oEm" firstAttribute="trailing" secondItem="fVv-04-i2T" secondAttribute="trailing" id="FAx-oy-MHY"/>
+                            <constraint firstItem="zpq-VR-oEm" firstAttribute="top" secondItem="fVv-04-i2T" secondAttribute="top" constant="44" id="HuS-gA-c1w"/>
+                            <constraint firstItem="5mX-Ie-qlj" firstAttribute="centerX" secondItem="v7Q-vs-Wse" secondAttribute="centerX" id="dml-B4-Nb5"/>
+                            <constraint firstItem="5mX-Ie-qlj" firstAttribute="top" secondItem="fVv-04-i2T" secondAttribute="bottom" constant="50" id="jaC-Wt-Bc3"/>
+                            <constraint firstItem="zpq-VR-oEm" firstAttribute="bottom" secondItem="5mX-Ie-qlj" secondAttribute="bottom" constant="20" id="n4B-La-fFp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zpq-VR-oEm"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnFavorite" destination="nJq-po-Wfb" id="Jyw-iT-FAs"/>
+                        <outlet property="btnReTweet" destination="Ih3-RB-sVO" id="zeg-So-03S"/>
+                        <outlet property="tweetContainerView" destination="fVv-04-i2T" id="Ty2-8S-U6d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tzo-PA-wWs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2542.0289855072465" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn_favorite" width="60" height="60"/>
+        <image name="btn_re_tweet" width="60" height="60"/>
+    </resources>
+</document>

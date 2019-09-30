@@ -9,8 +9,7 @@
 import Foundation
 
 extension Data {
-    
-    /// Stored property to print nice sanitized debugDescription
+
     var prettyPrintedJSONString: NSString? {
         guard let object = try? JSONSerialization.jsonObject(with: self, options: []),
             let data = try? JSONSerialization.data(withJSONObject: object, options: [.prettyPrinted]),

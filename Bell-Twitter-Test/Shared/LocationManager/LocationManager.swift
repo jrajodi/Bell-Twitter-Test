@@ -17,14 +17,11 @@ protocol LocationManagerDelegate {
 
 class LocationManager: NSObject {
     
-    // MARK: - Peoprties
     static let sharedInstance: LocationManager = { LocationManager() }()
-    
     var locationManager: CLLocationManager?
     var lastLocation: CLLocation?
     var delegate: LocationManagerDelegate?
     
-    // MARK: - Initialization
     override init() {
         super.init()
         
@@ -34,14 +31,11 @@ class LocationManager: NSObject {
         }
         
         if CLLocationManager.authorizationStatus() == .notDetermined {
-            // you have 2 choice
-            // 1. requestAlwaysAuthorization
-            // 2. requestWhenInUseAuthorization
             locationManager.requestAlwaysAuthorization()
         }
         
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest // The accuracy of the location data
-        locationManager.distanceFilter = 200 // The minimum distance (measured in meters) a device must move horizontally before an update event is generated.
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        locationManager.distanceFilter = 200
         locationManager.delegate = self
     }
     
@@ -78,7 +72,6 @@ class LocationManager: NSObject {
     }
 }
 
-// MARK: - CLLocationManager Delegate Methods
 extension LocationManager: CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -87,10 +80,7 @@ extension LocationManager: CLLocationManagerDelegate {
             return
         }
         
-        // singleton for get last location
         self.lastLocation = location
-        
-        // use for real time update location
         updateLocation(currentLocation: location)
     }
 }

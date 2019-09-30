@@ -12,36 +12,37 @@ import TwitterKit
 
 class APIManager {
     
-    // Parameters of your request
+    let apiClient = TWTRAPIClient()
+
     private struct NetworkParameter {
-        
         static let tweetRequestId = "tweetRequestId"
         static let tweetId = "tweetId"
         static let id = "id"
     }
     
-    // Shared Instance of APIManager
+    private struct SearchResultType {
+        static let mixed = "mixed"
+        static let recent = "recent"
+        static let popular = "popular"
+    }
+    
     static let shared = APIManager()
     
-    /** Search the tweets based on radius, keyword and location
-     * - Parameters: radius
-     * - Parameters: keyword
-     * - Parameters: completion to return your async response
-     */
-    func searchWithRadius(_ radius: Int, keyword: String, completion: @escaping (TweetsResponse?) -> (Void)) {
-        
-        var  query = keyword
+    func searchWithRadius(_ radius: Int, completion: @escaping (TweetsResponse?) -> (Void)) {
         let location = LocationManager.sharedInstance.lastLocation
-        let geocode = "\(location?.coordinate.latitude ?? 43.648065),\(location?.coordinate.longitude ?? -79.420417),\(radius)km"
-        query = query.urlEscaped
-        let queryURL = "\(APIEndPoints.baseURL)search/tweets.json?count=100&q=\(query)&result_type=mixed&geocode=\(geocode)"
-        
-        let request = URLRequest(url: URL(string: queryURL)!)
-        TWTRAPIClient().sendTwitterRequest(request) { (response, data, err) in
-            
+        let geocode = "\(location?.coordinate.latitude ?? 45.494862),\(location?.coordinate.longitude ?? -73.580650),\(radius)km"
+        let params = [
+            "geocode": geocode,
+            "count": "100",
+            "q": "#montreal",
+            "result_type": SearchResultType.recent
+        ]
+        let request = apiClient.urlRequest(withMethod: "GET", urlString: APIPath.search.url, parameters: params, error: nil)
+        apiClient.sendTwitterRequest(request) { (response, data, err) in
+
             print(data?.prettyPrintedJSONString! ?? "")
-            
-            if let result = try? JSONDecoder().decode(TweetsResponse.self, from: data!) {
+
+            if let result = try? JSONDecoder().decode(TweetsResponse.self, from: data ?? Data()) {
                 completion(result)
             } else {
                 completion(nil)
@@ -49,17 +50,12 @@ class APIManager {
         }
     }
     
-    /** Search the tweets based on keyword and location
-     * - Parameters: keyword
-     * - Parameters: completion to return your async response
-     */
     func searchTweetsWith(_ keyword: String, completion: @escaping (TweetsResponse?) -> (Void)) {
-        
-        var  query = keyword
-        query = query.urlEscaped
-        let queryURL = "\(APIEndPoints.baseURL)search/tweets.json?count=100&q=\(query)&result_type=mixed"
-        
-        let request = URLRequest(url: URL(string: queryURL)!)
+        let params = [
+            "q": keyword.urlEscaped,
+            "result_type": SearchResultType.mixed
+        ]
+        let request = apiClient.urlRequest(withMethod: "GET", urlString: APIPath.search.url, parameters: params, error: nil)
         TWTRAPIClient().sendTwitterRequest(request) { (response, data, err) in
             
             print(data?.prettyPrintedJSONString! ?? "")
@@ -71,22 +67,12 @@ class APIManager {
         }
     }
     
-    /** Fetch tweet details based on tweetId
-     * - Parameters: tweetId
-     * - Parameters: completion to return your async response
-     */
     func fetchTweetDetail(tweetId: Int, completion: @escaping (TWTRTweet?, Error?) -> (Void)) {
-        
         TWTRAPIClient().loadTweet(withID: "\(tweetId)") { (tweet, error) in
             completion(tweet, error)
         }
     }
     
-    /** Make retweet the current tweet
-     * - Parameters: tweetRequestId
-     * - Parameters: tweetId
-     * - Parameters: completion to return your async response
-     */
     func retweet(forTweetRequestId tweetRequestId: String, tweetId: String, completion: @escaping (Bool) -> Void) {
         
         let urlString = APIPath.postedTweet.url
@@ -99,11 +85,7 @@ class APIManager {
             completion(response.result.isSuccess)
         }
     }
-    
-    /** Make the tweet favorite
-     * - Parameters: id
-     * - Parameters: completion to return your async response
-     */
+
     func favoriteTweet(forID id: String, completion: @escaping (Bool) -> Void) {
         
         let urlString = APIPath.favorite.url

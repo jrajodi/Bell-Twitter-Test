@@ -1,0 +1,1492 @@
+{
+  "statuses": [
+    {
+      "place": {
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -79.639319,
+                43.403221
+              ],
+              [
+                -78.90582,
+                43.403221
+              ],
+              [
+                -78.90582,
+                43.855401
+              ],
+              [
+                -79.639319,
+                43.855401
+              ]
+            ]
+          ]
+        },
+        "contained_within": [],
+        "country": "Canada",
+        "id": "3797791ff9c0e4c6",
+        "attributes": {},
+        "place_type": "city",
+        "full_name": "Toronto, Ontario",
+        "country_code": "CA",
+        "name": "Toronto",
+        "url": "https://api.twitter.com/1.1/geo/id/3797791ff9c0e4c6.json"
+      },
+      "contributors": null,
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "truncated": false,
+      "metadata": {
+        "iso_language_code": "und",
+        "result_type": "recent"
+      },
+      "is_quote_status": false,
+      "favorite_count": 0,
+      "possibly_sensitive": false,
+      "lang": "und",
+      "entities": {
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "display_url": "cbc.ca/news/canada/no…",
+            "url": "https://t.co/YF5BqisGVn",
+            "indices": [
+              0,
+              23
+            ],
+            "expanded_url": "https://www.cbc.ca/news/canada/nova-scotia/family-warns-pet-owners-after-dog-dies-poisonous-mushrooms-1.5294059?__vfz=medium%3Dsharebar"
+          }
+        ],
+        "hashtags": []
+      },
+      "in_reply_to_screen_name": null,
+      "retweet_count": 0,
+      "favorited": false,
+      "geo": null,
+      "id": 1176900138108883000,
+      "user": {
+        "protected": false,
+        "is_translator": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/931661961934331904/pj8kfLfx_normal.jpg",
+        "created_at": "Tue Mar 24 23:43:09 +0000 2009",
+        "id": 26360366,
+        "default_profile_image": false,
+        "listed_count": 27,
+        "profile_background_color": "700964",
+        "follow_request_sent": null,
+        "location": "Toronto, ON via Halifax, NS",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "display_url": "efcf.ca",
+                "url": "https://t.co/8ftwioMY76",
+                "indices": [
+                  0,
+                  23
+                ],
+                "expanded_url": "http://www.efcf.ca"
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "url": "https://t.co/8ftwioMY76",
+        "description": "Choose happiness ☀️🌙✨",
+        "followers_count": 1378,
+        "geo_enabled": true,
+        "lang": null,
+        "profile_text_color": "87F5EE",
+        "statuses_count": 5119,
+        "following": null,
+        "notifications": null,
+        "profile_background_tile": true,
+        "profile_use_background_image": true,
+        "id_str": "26360366",
+        "name": "Melissa Hambrook",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/931661961934331904/pj8kfLfx_normal.jpg",
+        "profile_sidebar_fill_color": "080808",
+        "profile_sidebar_border_color": "C6EEF2",
+        "contributors_enabled": false,
+        "default_profile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/26360366/1551293247",
+        "screen_name": "MeliaHambrook",
+        "time_zone": null,
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme3/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme3/bg.gif",
+        "profile_link_color": "E408F0",
+        "favourites_count": 1807,
+        "is_translation_enabled": false,
+        "translator_type": "none",
+        "utc_offset": null,
+        "friends_count": 545,
+        "verified": false,
+        "has_extended_profile": true
+      },
+      "in_reply_to_user_id": null,
+      "retweeted": false,
+      "text": "https://t.co/YF5BqisGVn",
+      "created_at": "Wed Sep 25 16:43:53 +0000 2019",
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_status_id": null,
+      "in_reply_to_user_id_str": null,
+      "id_str": "1176900138108882946",
+      "coordinates": null
+    },
+    {
+      "place": {
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -80.145847,
+                43.889266
+              ],
+              [
+                -80.06155,
+                43.889266
+              ],
+              [
+                -80.06155,
+                43.93495
+              ],
+              [
+                -80.145847,
+                43.93495
+              ]
+            ]
+          ]
+        },
+        "contained_within": [],
+        "country": "Canada",
+        "id": "0112f4ecb6b7afa6",
+        "attributes": {},
+        "place_type": "city",
+        "full_name": "Orangeville, Ontario",
+        "country_code": "CA",
+        "name": "Orangeville",
+        "url": "https://api.twitter.com/1.1/geo/id/0112f4ecb6b7afa6.json"
+      },
+      "contributors": null,
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "truncated": false,
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "is_quote_status": true,
+      "quoted_status_id": 1176898040696889300,
+      "favorite_count": 0,
+      "possibly_sensitive": false,
+      "entities": {
+        "symbols": [],
+        "user_mentions": [
+          {
+            "id_str": "41468683",
+            "id": 41468683,
+            "screen_name": "BlueJays",
+            "name": "Toronto Blue Jays",
+            "indices": [
+              46,
+              55
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "twitter.com/matteddyba/sta…",
+            "url": "https://t.co/gYTaZKZeMN",
+            "indices": [
+              56,
+              79
+            ],
+            "expanded_url": "https://twitter.com/matteddyba/status/1176898040696889345"
+          }
+        ],
+        "hashtags": [
+          {
+            "indices": [
+              32,
+              36
+            ],
+            "text": "HOF"
+          }
+        ]
+      },
+      "lang": "en",
+      "in_reply_to_screen_name": null,
+      "quoted_status": {
+        "place": null,
+        "contributors": null,
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "truncated": true,
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "is_quote_status": false,
+        "favorite_count": 7,
+        "possibly_sensitive": false,
+        "lang": "en",
+        "entities": {
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "display_url": "twitter.com/i/web/status/1…",
+              "url": "https://t.co/CEqm9D6S2W",
+              "indices": [
+                117,
+                140
+              ],
+              "expanded_url": "https://twitter.com/i/web/status/1176898040696889345"
+            }
+          ],
+          "hashtags": []
+        },
+        "in_reply_to_screen_name": null,
+        "retweet_count": 1,
+        "favorited": false,
+        "geo": null,
+        "id": 1176898040696889300,
+        "user": {
+          "protected": false,
+          "is_translator": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/914308552772202496/_AZlayqI_normal.jpg",
+          "created_at": "Tue Mar 23 17:43:16 +0000 2010",
+          "id": 125728590,
+          "default_profile_image": false,
+          "listed_count": 603,
+          "profile_background_color": "000000",
+          "follow_request_sent": null,
+          "location": "Durham, N.C.",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "display_url": "baseballamerica.com/about-ba/autho…",
+                  "url": "https://t.co/oEz3nM0UDC",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "expanded_url": "https://www.baseballamerica.com/about-ba/authors/matt-eddy"
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "url": "https://t.co/oEz3nM0UDC",
+          "description": "@BaseballAmerica co-executive editor with @jjcoop36 ⚾️ player development ⚾️ analytics ⚾️ fantasy & simulation baseball",
+          "followers_count": 14682,
+          "geo_enabled": false,
+          "lang": null,
+          "profile_text_color": "000000",
+          "statuses_count": 9679,
+          "following": null,
+          "notifications": null,
+          "profile_background_tile": false,
+          "profile_use_background_image": false,
+          "id_str": "125728590",
+          "name": "Matt Eddy",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/914308552772202496/_AZlayqI_normal.jpg",
+          "profile_sidebar_fill_color": "000000",
+          "profile_sidebar_border_color": "000000",
+          "contributors_enabled": false,
+          "default_profile": false,
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/125728590/1495500692",
+          "screen_name": "MattEddyBA",
+          "time_zone": null,
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme6/bg.gif",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme6/bg.gif",
+          "profile_link_color": "1B95E0",
+          "favourites_count": 163,
+          "is_translation_enabled": false,
+          "translator_type": "none",
+          "utc_offset": null,
+          "friends_count": 1565,
+          "verified": false,
+          "has_extended_profile": true
+        },
+        "in_reply_to_user_id": null,
+        "retweeted": false,
+        "text": "Vladimir Guerrero Jr. is hitting .274/.342/.439 (108 OPS+) with 15 HR and 69 RBIs. While that may seem ho-hum given… https://t.co/CEqm9D6S2W",
+        "created_at": "Wed Sep 25 16:35:33 +0000 2019",
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_user_id_str": null,
+        "id_str": "1176898040696889345",
+        "coordinates": null
+      },
+      "retweet_count": 0,
+      "favorited": false,
+      "geo": null,
+      "id": 1176900108140589000,
+      "user": {
+        "protected": false,
+        "is_translator": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/447725093029175296/WUf_UbN2_normal.jpeg",
+        "created_at": "Tue Apr 27 13:20:21 +0000 2010",
+        "id": 137692493,
+        "default_profile_image": false,
+        "listed_count": 29,
+        "profile_background_color": "9AE4E8",
+        "follow_request_sent": null,
+        "location": "Toronto, ON",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "display_url": "Talk-Sports.com",
+                "url": "https://t.co/WuKXojFUHr",
+                "indices": [
+                  0,
+                  23
+                ],
+                "expanded_url": "http://www.Talk-Sports.com"
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "url": "https://t.co/WuKXojFUHr",
+        "description": "Verified uber-sports-nut. 🇨🇦 Just give me a beer. cell: 416-802-7968 email: randy@kbcafe.com",
+        "followers_count": 608,
+        "geo_enabled": true,
+        "lang": null,
+        "profile_text_color": "333333",
+        "statuses_count": 18636,
+        "following": null,
+        "notifications": null,
+        "profile_background_tile": true,
+        "profile_use_background_image": true,
+        "id_str": "137692493",
+        "name": "The Talk-Sports guy",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/447725093029175296/WUf_UbN2_normal.jpeg",
+        "profile_sidebar_fill_color": "13F5D7",
+        "profile_sidebar_border_color": "17BEE8",
+        "contributors_enabled": false,
+        "default_profile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/137692493/1465054574",
+        "screen_name": "talkSportscom",
+        "time_zone": null,
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme16/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme16/bg.gif",
+        "profile_link_color": "0084B4",
+        "favourites_count": 2674,
+        "is_translation_enabled": false,
+        "translator_type": "none",
+        "utc_offset": null,
+        "friends_count": 317,
+        "verified": false,
+        "has_extended_profile": true
+      },
+      "in_reply_to_user_id": null,
+      "quoted_status_id_str": "1176898040696889345",
+      "retweeted": false,
+      "text": "And most names on that list are #HOF or close @BlueJays https://t.co/gYTaZKZeMN",
+      "created_at": "Wed Sep 25 16:43:46 +0000 2019",
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_status_id": null,
+      "in_reply_to_user_id_str": null,
+      "id_str": "1176900108140589060",
+      "coordinates": null
+    },
+    {
+      "place": {
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -79.639319,
+                43.403221
+              ],
+              [
+                -78.90582,
+                43.403221
+              ],
+              [
+                -78.90582,
+                43.855401
+              ],
+              [
+                -79.639319,
+                43.855401
+              ]
+            ]
+          ]
+        },
+        "contained_within": [],
+        "country": "Canada",
+        "id": "3797791ff9c0e4c6",
+        "attributes": {},
+        "place_type": "city",
+        "full_name": "Toronto, Ontario",
+        "country_code": "CA",
+        "name": "Toronto",
+        "url": "https://api.twitter.com/1.1/geo/id/3797791ff9c0e4c6.json"
+      },
+      "contributors": null,
+      "source": "<a href=\"http://foursquare.com\" rel=\"nofollow\">Foursquare</a>",
+      "truncated": false,
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "is_quote_status": false,
+      "favorite_count": 0,
+      "possibly_sensitive": false,
+      "lang": "en",
+      "entities": {
+        "media": [
+          {
+            "id_str": "1176900104827101184",
+            "media_url_https": "https://pbs.twimg.com/media/EFUwaOxW4AAe4HF.jpg",
+            "expanded_url": "https://twitter.com/ArtsandClouds/status/1176900106081243136/photo/1",
+            "id": 1176900104827101200,
+            "sizes": {
+              "large": {
+                "w": 1440,
+                "h": 1920,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 900,
+                "h": 1200,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 510,
+                "h": 680,
+                "resize": "fit"
+              }
+            },
+            "display_url": "pic.twitter.com/DJNyra71Hv",
+            "type": "photo",
+            "indices": [
+              108,
+              131
+            ],
+            "media_url": "http://pbs.twimg.com/media/EFUwaOxW4AAe4HF.jpg",
+            "url": "https://t.co/DJNyra71Hv"
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "id_str": "30973",
+            "id": 30973,
+            "screen_name": "Starbucks",
+            "name": "Starbucks Coffee",
+            "indices": [
+              52,
+              62
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "swarmapp.com/c/fvwUbO4kzSF",
+            "url": "https://t.co/YvROJHLD39",
+            "indices": [
+              84,
+              107
+            ],
+            "expanded_url": "https://www.swarmapp.com/c/fvwUbO4kzSF"
+          }
+        ],
+        "hashtags": []
+      },
+      "in_reply_to_screen_name": null,
+      "retweet_count": 0,
+      "favorited": false,
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          43.72567,
+          -79.452168
+        ]
+      },
+      "id": 1176900106081243100,
+      "user": {
+        "protected": false,
+        "is_translator": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1064729998530031617/Dfjdyt7E_normal.jpg",
+        "created_at": "Tue Mar 24 00:30:42 +0000 2009",
+        "id": 26133036,
+        "default_profile_image": false,
+        "listed_count": 654,
+        "profile_background_color": "1A1B1F",
+        "follow_request_sent": null,
+        "location": "Toronto, Ontario, Canada",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "display_url": "artenvy.faso.com",
+                "url": "https://t.co/dX12cKzKtk",
+                "indices": [
+                  0,
+                  23
+                ],
+                "expanded_url": "http://artenvy.faso.com"
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "url": "https://t.co/dX12cKzKtk",
+        "description": "Amplifier Of Brands, Accomplished Artist, RadioHost, Executive Advisor to #CEO's, Social Media Strategist, Social Connector, Micro-Influencer",
+        "followers_count": 13294,
+        "geo_enabled": true,
+        "lang": null,
+        "profile_text_color": "666666",
+        "statuses_count": 69325,
+        "following": null,
+        "notifications": null,
+        "profile_background_tile": true,
+        "profile_use_background_image": true,
+        "id_str": "26133036",
+        "name": "Peter G. Goral",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1064729998530031617/Dfjdyt7E_normal.jpg",
+        "profile_sidebar_fill_color": "252429",
+        "profile_sidebar_border_color": "FFFFFF",
+        "contributors_enabled": false,
+        "default_profile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/26133036/1556985916",
+        "screen_name": "ArtsandClouds",
+        "time_zone": null,
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+        "profile_link_color": "981CEB",
+        "favourites_count": 45738,
+        "is_translation_enabled": false,
+        "translator_type": "none",
+        "utc_offset": null,
+        "friends_count": 13435,
+        "verified": false,
+        "has_extended_profile": false
+      },
+      "in_reply_to_user_id": null,
+      "extended_entities": {
+        "media": [
+          {
+            "id_str": "1176900104827101184",
+            "media_url_https": "https://pbs.twimg.com/media/EFUwaOxW4AAe4HF.jpg",
+            "expanded_url": "https://twitter.com/ArtsandClouds/status/1176900106081243136/photo/1",
+            "id": 1176900104827101200,
+            "sizes": {
+              "large": {
+                "w": 1440,
+                "h": 1920,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 900,
+                "h": 1200,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 510,
+                "h": 680,
+                "resize": "fit"
+              }
+            },
+            "display_url": "pic.twitter.com/DJNyra71Hv",
+            "type": "photo",
+            "indices": [
+              108,
+              131
+            ],
+            "media_url": "http://pbs.twimg.com/media/EFUwaOxW4AAe4HF.jpg",
+            "url": "https://t.co/DJNyra71Hv"
+          }
+        ]
+      },
+      "retweeted": false,
+      "text": "Taking a moment to digest the mornings session. (at @Starbucks in Toronto, Ontario) https://t.co/YvROJHLD39 https://t.co/DJNyra71Hv",
+      "created_at": "Wed Sep 25 16:43:45 +0000 2019",
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_status_id": null,
+      "in_reply_to_user_id_str": null,
+      "id_str": "1176900106081243136",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          -79.452168,
+          43.72567
+        ]
+      }
+    },
+    {
+      "place": {
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -80.085732,
+                43.524656
+              ],
+              [
+                -79.78812,
+                43.524656
+              ],
+              [
+                -79.78812,
+                43.734448
+              ],
+              [
+                -80.085732,
+                43.734448
+              ]
+            ]
+          ]
+        },
+        "contained_within": [],
+        "country": "Canada",
+        "id": "1f4902dd49ed392e",
+        "attributes": {},
+        "place_type": "city",
+        "full_name": "Halton Hills, Ontario",
+        "country_code": "CA",
+        "name": "Halton Hills",
+        "url": "https://api.twitter.com/1.1/geo/id/1f4902dd49ed392e.json"
+      },
+      "contributors": null,
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "truncated": true,
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "is_quote_status": true,
+      "quoted_status_id": 1176162625299931100,
+      "favorite_count": 0,
+      "possibly_sensitive": false,
+      "entities": {
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "display_url": "twitter.com/i/web/status/1…",
+            "url": "https://t.co/YrHp2ZmEpJ",
+            "indices": [
+              117,
+              140
+            ],
+            "expanded_url": "https://twitter.com/i/web/status/1176900104940376065"
+          }
+        ],
+        "hashtags": []
+      },
+      "lang": "en",
+      "in_reply_to_screen_name": null,
+      "quoted_status": {
+        "place": null,
+        "contributors": null,
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "truncated": false,
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "is_quote_status": false,
+        "favorite_count": 11391,
+        "possibly_sensitive": false,
+        "lang": "en",
+        "entities": {
+          "media": [
+            {
+              "id": 1176157632186466300,
+              "id_str": "1176157632186466305",
+              "source_status_id": 1176159504288886800,
+              "indices": [
+                15,
+                38
+              ],
+              "url": "https://t.co/R5RndFsGzC",
+              "source_status_id_str": "1176159504288886785",
+              "type": "photo",
+              "media_url": "http://pbs.twimg.com/amplify_video_thumb/1176157632186466305/img/sn6shwR6BJZh_pZC.jpg",
+              "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1176157632186466305/img/sn6shwR6BJZh_pZC.jpg",
+              "display_url": "pic.twitter.com/R5RndFsGzC",
+              "source_user_id": 759251,
+              "sizes": {
+                "large": {
+                  "w": 720,
+                  "h": 720,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 720,
+                  "h": 720,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 680,
+                  "resize": "fit"
+                }
+              },
+              "source_user_id_str": "759251",
+              "expanded_url": "https://twitter.com/CNN/status/1176159504288886785/video/1"
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [],
+          "hashtags": []
+        },
+        "in_reply_to_screen_name": null,
+        "retweet_count": 2461,
+        "favorited": false,
+        "geo": null,
+        "id": 1176162625299931100,
+        "user": {
+          "protected": false,
+          "is_translator": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1175535584007380993/vAhs8DRX_normal.jpg",
+          "created_at": "Mon Feb 02 09:36:06 +0000 2009",
+          "id": 19899606,
+          "default_profile_image": false,
+          "listed_count": 1118,
+          "profile_background_color": "0099B9",
+          "follow_request_sent": null,
+          "location": "UK",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "display_url": "subscribestar.com/behind-the-pol…",
+                  "url": "https://t.co/269tqOwjdE",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "expanded_url": "https://www.subscribestar.com/behind-the-political-lies"
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "url": "https://t.co/269tqOwjdE",
+          "description": "“I used to be disgusted but now I try to be amused..”. Red Shoes.",
+          "followers_count": 127383,
+          "geo_enabled": false,
+          "lang": null,
+          "profile_text_color": "3C3940",
+          "statuses_count": 173745,
+          "following": null,
+          "notifications": null,
+          "profile_background_tile": true,
+          "profile_use_background_image": true,
+          "id_str": "19899606",
+          "name": "David Vance",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1175535584007380993/vAhs8DRX_normal.jpg",
+          "profile_sidebar_fill_color": "95E8EC",
+          "profile_sidebar_border_color": "FFFFFF",
+          "contributors_enabled": false,
+          "default_profile": false,
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/19899606/1552130358",
+          "screen_name": "DVATW",
+          "time_zone": null,
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme4/bg.gif",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme4/bg.gif",
+          "profile_link_color": "0099B9",
+          "favourites_count": 41045,
+          "is_translation_enabled": false,
+          "translator_type": "none",
+          "utc_offset": null,
+          "friends_count": 1074,
+          "verified": true,
+          "has_extended_profile": true
+        },
+        "in_reply_to_user_id": null,
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1176157632186466300,
+              "id_str": "1176157632186466305",
+              "source_status_id": 1176159504288886800,
+              "indices": [
+                15,
+                38
+              ],
+              "url": "https://t.co/R5RndFsGzC",
+              "source_status_id_str": "1176159504288886785",
+              "type": "video",
+              "media_url": "http://pbs.twimg.com/amplify_video_thumb/1176157632186466305/img/sn6shwR6BJZh_pZC.jpg",
+              "video_info": {
+                "aspect_ratio": [
+                  1,
+                  1
+                ],
+                "duration_millis": 52553,
+                "variants": [
+                  {
+                    "bitrate": 432000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1176157632186466305/vid/320x320/kJE87IfZmZVPkrzg.mp4?tag=13"
+                  },
+                  {
+                    "url": "https://video.twimg.com/amplify_video/1176157632186466305/pl/CwLIkKFBifLvK5O5.m3u8?tag=13",
+                    "content_type": "application/x-mpegURL"
+                  },
+                  {
+                    "bitrate": 1280000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1176157632186466305/vid/720x720/TGMrt0fLCUij3ABJ.mp4?tag=13"
+                  },
+                  {
+                    "bitrate": 832000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1176157632186466305/vid/480x480/F9-jv3i2XjO6Rnjm.mp4?tag=13"
+                  }
+                ]
+              },
+              "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1176157632186466305/img/sn6shwR6BJZh_pZC.jpg",
+              "display_url": "pic.twitter.com/R5RndFsGzC",
+              "source_user_id": 759251,
+              "sizes": {
+                "large": {
+                  "w": 720,
+                  "h": 720,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 720,
+                  "h": 720,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 680,
+                  "resize": "fit"
+                }
+              },
+              "source_user_id_str": "759251",
+              "expanded_url": "https://twitter.com/CNN/status/1176159504288886785/video/1",
+              "additional_media_info": {
+                "monetizable": false,
+                "title": "",
+                "embeddable": true,
+                "description": ""
+              }
+            }
+          ]
+        },
+        "retweeted": false,
+        "text": "Just. Cringe.  https://t.co/R5RndFsGzC",
+        "created_at": "Mon Sep 23 15:53:16 +0000 2019",
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_user_id_str": null,
+        "id_str": "1176162625299931137",
+        "coordinates": null
+      },
+      "retweet_count": 0,
+      "favorited": false,
+      "geo": null,
+      "id": 1176900104940376000,
+      "user": {
+        "protected": false,
+        "is_translator": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1169748825092829184/dMKnXiZF_normal.jpg",
+        "created_at": "Thu Jun 12 02:58:26 +0000 2014",
+        "id": 2562561229,
+        "default_profile_image": false,
+        "listed_count": 4,
+        "profile_background_color": "000000",
+        "follow_request_sent": null,
+        "location": "Canada ",
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "url": null,
+        "description": "(ง ͠° ͟ل͜ ͡°)ง",
+        "followers_count": 252,
+        "geo_enabled": true,
+        "lang": null,
+        "profile_text_color": "000000",
+        "statuses_count": 2697,
+        "following": null,
+        "notifications": null,
+        "profile_background_tile": false,
+        "profile_use_background_image": false,
+        "id_str": "2562561229",
+        "name": "Belinda",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1169748825092829184/dMKnXiZF_normal.jpg",
+        "profile_sidebar_fill_color": "000000",
+        "profile_sidebar_border_color": "000000",
+        "contributors_enabled": false,
+        "default_profile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2562561229/1539582288",
+        "screen_name": "monsieurbelinda",
+        "time_zone": null,
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_link_color": "FF691F",
+        "favourites_count": 24032,
+        "is_translation_enabled": false,
+        "translator_type": "none",
+        "utc_offset": null,
+        "friends_count": 735,
+        "verified": false,
+        "has_extended_profile": true
+      },
+      "in_reply_to_user_id": null,
+      "quoted_status_id_str": "1176162625299931137",
+      "retweeted": false,
+      "text": "It’s frustrating that so many grown adults on this thread are more outraged at a teenage girl being “cringe” for ge… https://t.co/YrHp2ZmEpJ",
+      "created_at": "Wed Sep 25 16:43:45 +0000 2019",
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_status_id": null,
+      "in_reply_to_user_id_str": null,
+      "id_str": "1176900104940376065",
+      "coordinates": null
+    },
+    {
+      "place": {
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -80.085732,
+                43.524656
+              ],
+              [
+                -79.78812,
+                43.524656
+              ],
+              [
+                -79.78812,
+                43.734448
+              ],
+              [
+                -80.085732,
+                43.734448
+              ]
+            ]
+          ]
+        },
+        "contained_within": [],
+        "country": "Canada",
+        "id": "1f4902dd49ed392e",
+        "attributes": {},
+        "place_type": "city",
+        "full_name": "Halton Hills, Ontario",
+        "country_code": "CA",
+        "name": "Halton Hills",
+        "url": "https://api.twitter.com/1.1/geo/id/1f4902dd49ed392e.json"
+      },
+      "contributors": null,
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "truncated": false,
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "is_quote_status": false,
+      "favorite_count": 0,
+      "lang": "en",
+      "entities": {
+        "symbols": [],
+        "user_mentions": [
+          {
+            "id_str": "723927813766713344",
+            "id": 723927813766713300,
+            "screen_name": "Mcdrafter",
+            "name": "Colin",
+            "indices": [
+              0,
+              10
+            ]
+          },
+          {
+            "id_str": "14260960",
+            "id": 14260960,
+            "screen_name": "JustinTrudeau",
+            "name": "Justin Trudeau",
+            "indices": [
+              11,
+              25
+            ]
+          }
+        ],
+        "urls": [],
+        "hashtags": []
+      },
+      "in_reply_to_screen_name": "Mcdrafter",
+      "retweet_count": 0,
+      "favorited": false,
+      "geo": null,
+      "id": 1176900098594431000,
+      "user": {
+        "protected": false,
+        "is_translator": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1044019169992298496/1edJZAyd_normal.jpg",
+        "created_at": "Fri Dec 03 17:26:56 +0000 2010",
+        "id": 222522752,
+        "default_profile_image": false,
+        "listed_count": 116,
+        "profile_background_color": "709397",
+        "follow_request_sent": null,
+        "location": "Mississauga Ontario",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "display_url": "Mikebullard.com",
+                "url": "https://t.co/JBNX973Hi0",
+                "indices": [
+                  0,
+                  23
+                ],
+                "expanded_url": "http://Mikebullard.com"
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "url": "https://t.co/JBNX973Hi0",
+        "description": "Host of Youtoopodcast starting in september. Brian Baumlers stunt double oh and falsely accused stalker by K. Donovan at toronto star.",
+        "followers_count": 39879,
+        "geo_enabled": true,
+        "lang": null,
+        "profile_text_color": "333333",
+        "statuses_count": 9902,
+        "following": null,
+        "notifications": null,
+        "profile_background_tile": false,
+        "profile_use_background_image": true,
+        "id_str": "222522752",
+        "name": "mike bullard",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1044019169992298496/1edJZAyd_normal.jpg",
+        "profile_sidebar_fill_color": "A0C5C7",
+        "profile_sidebar_border_color": "86A4A6",
+        "contributors_enabled": false,
+        "default_profile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/222522752/1537748595",
+        "screen_name": "MikeBullard1997",
+        "time_zone": null,
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme6/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme6/bg.gif",
+        "profile_link_color": "FF3300",
+        "favourites_count": 1396,
+        "is_translation_enabled": false,
+        "translator_type": "none",
+        "utc_offset": null,
+        "friends_count": 2076,
+        "verified": false,
+        "has_extended_profile": false
+      },
+      "in_reply_to_user_id": 723927813766713300,
+      "retweeted": false,
+      "text": "@Mcdrafter @JustinTrudeau He isnt a racist....but he is definately a spontaneity planner.",
+      "created_at": "Wed Sep 25 16:43:43 +0000 2019",
+      "in_reply_to_status_id_str": "1176899313491824640",
+      "in_reply_to_status_id": 1176899313491824600,
+      "in_reply_to_user_id_str": "723927813766713344",
+      "id_str": "1176900098594430982",
+      "coordinates": null
+    },
+    {
+      "place": {
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -79.639319,
+                43.403221
+              ],
+              [
+                -78.90582,
+                43.403221
+              ],
+              [
+                -78.90582,
+                43.855401
+              ],
+              [
+                -79.639319,
+                43.855401
+              ]
+            ]
+          ]
+        },
+        "contained_within": [],
+        "country": "Canada",
+        "id": "3797791ff9c0e4c6",
+        "attributes": {},
+        "place_type": "city",
+        "full_name": "Toronto, Ontario",
+        "country_code": "CA",
+        "name": "Toronto",
+        "url": "https://api.twitter.com/1.1/geo/id/3797791ff9c0e4c6.json"
+      },
+      "contributors": null,
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "truncated": true,
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "is_quote_status": true,
+      "quoted_status_id": 1176896624385302500,
+      "favorite_count": 0,
+      "possibly_sensitive": false,
+      "entities": {
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "display_url": "twitter.com/i/web/status/1…",
+            "url": "https://t.co/cC7rGxzvye",
+            "indices": [
+              117,
+              140
+            ],
+            "expanded_url": "https://twitter.com/i/web/status/1176900082299527170"
+          }
+        ],
+        "hashtags": []
+      },
+      "lang": "en",
+      "in_reply_to_screen_name": null,
+      "quoted_status": {
+        "place": null,
+        "contributors": null,
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "truncated": true,
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "is_quote_status": false,
+        "favorite_count": 5067,
+        "lang": "en",
+        "entities": {
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "display_url": "twitter.com/i/web/status/1…",
+              "url": "https://t.co/nExVPTUQdE",
+              "indices": [
+                117,
+                140
+              ],
+              "expanded_url": "https://twitter.com/i/web/status/1176896624385302528"
+            }
+          ],
+          "hashtags": []
+        },
+        "in_reply_to_screen_name": null,
+        "retweet_count": 2507,
+        "favorited": false,
+        "geo": null,
+        "id": 1176896624385302500,
+        "user": {
+          "protected": false,
+          "is_translator": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/596012379231617025/TtrAXbnA_normal.jpg",
+          "created_at": "Tue Dec 16 17:20:24 +0000 2008",
+          "id": 18166778,
+          "default_profile_image": false,
+          "listed_count": 3845,
+          "profile_background_color": "FFFFFF",
+          "follow_request_sent": null,
+          "location": "Washington, D.C. ",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "display_url": "jordan.house.gov",
+                  "url": "https://t.co/wd2j7YpRZm",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "expanded_url": "http://jordan.house.gov/"
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "url": "https://t.co/wd2j7YpRZm",
+          "description": "Proudly serving Ohio's beautiful fourth district. Ranking Member on @GOPoversight. Fighting to #DoWhatWeSaid",
+          "followers_count": 718253,
+          "geo_enabled": true,
+          "lang": null,
+          "profile_text_color": "01050D",
+          "statuses_count": 3486,
+          "following": null,
+          "notifications": null,
+          "profile_background_tile": true,
+          "profile_use_background_image": false,
+          "id_str": "18166778",
+          "name": "Rep. Jim Jordan",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/596012379231617025/TtrAXbnA_normal.jpg",
+          "profile_sidebar_fill_color": "BA0D1F",
+          "profile_sidebar_border_color": "FFFFFF",
+          "contributors_enabled": false,
+          "default_profile": false,
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/18166778/1406042839",
+          "screen_name": "Jim_Jordan",
+          "time_zone": null,
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_link_color": "4F90DB",
+          "favourites_count": 1116,
+          "is_translation_enabled": false,
+          "translator_type": "none",
+          "utc_offset": null,
+          "friends_count": 4323,
+          "verified": true,
+          "has_extended_profile": false
+        },
+        "in_reply_to_user_id": null,
+        "retweeted": false,
+        "text": "So let’s get this straight:\n\nHunter Biden makes $50k a MONTH working for a Ukrainian company.\n\nA Ukrainian prosecut… https://t.co/nExVPTUQdE",
+        "created_at": "Wed Sep 25 16:29:55 +0000 2019",
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_user_id_str": null,
+        "id_str": "1176896624385302528",
+        "coordinates": null
+      },
+      "retweet_count": 0,
+      "favorited": false,
+      "geo": null,
+      "id": 1176900082299527200,
+      "user": {
+        "protected": false,
+        "is_translator": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1174418883341627392/_odv8mff_normal.jpg",
+        "created_at": "Sun Mar 30 17:57:19 +0000 2008",
+        "id": 14259752,
+        "default_profile_image": false,
+        "listed_count": 5,
+        "profile_background_color": "C0DEED",
+        "follow_request_sent": null,
+        "location": "",
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "url": null,
+        "description": "",
+        "followers_count": 93,
+        "geo_enabled": true,
+        "lang": null,
+        "profile_text_color": "333333",
+        "statuses_count": 7392,
+        "following": null,
+        "notifications": null,
+        "profile_background_tile": false,
+        "profile_use_background_image": true,
+        "id_str": "14259752",
+        "name": "CEASAR",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1174418883341627392/_odv8mff_normal.jpg",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_sidebar_border_color": "C0DEED",
+        "contributors_enabled": false,
+        "default_profile": true,
+        "screen_name": "CEASAR",
+        "time_zone": null,
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_link_color": "1DA1F2",
+        "favourites_count": 6028,
+        "is_translation_enabled": false,
+        "translator_type": "none",
+        "utc_offset": null,
+        "friends_count": 63,
+        "verified": false,
+        "has_extended_profile": false
+      },
+      "in_reply_to_user_id": null,
+      "quoted_status_id_str": "1176896624385302528",
+      "retweeted": false,
+      "text": "VP Joe Biden clearly used his position as VP to have a Foreign Prosecutor terminated so that his son isn’t investig… https://t.co/cC7rGxzvye",
+      "created_at": "Wed Sep 25 16:43:40 +0000 2019",
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_status_id": null,
+      "in_reply_to_user_id_str": null,
+      "id_str": "1176900082299527170",
+      "coordinates": null
+    },
+    {
+      "place": {
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -79.639319,
+                43.403221
+              ],
+              [
+                -78.90582,
+                43.403221
+              ],
+              [
+                -78.90582,
+                43.855401
+              ],
+              [
+                -79.639319,
+                43.855401
+              ]
+            ]
+          ]
+        },
+        "contained_within": [],
+        "country": "Canada",
+        "id": "3797791ff9c0e4c6",
+        "attributes": {},
+        "place_type": "city",
+        "full_name": "Toronto, Ontario",
+        "country_code": "CA",
+        "name": "Toronto",
+        "url": "https://api.twitter.com/1.1/geo/id/3797791ff9c0e4c6.json"
+      },
+      "contributors": null,
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "truncated": false,
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "is_quote_status": false,
+      "favorite_count": 0,
+      "lang": "en",
+      "entities": {
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [],
+        "hashtags": []
+      },
+      "in_reply_to_screen_name": null,
+      "retweet_count": 0,
+      "favorited": false,
+      "geo": null,
+      "id": 1176900070085709800,
+      "user": {
+        "protected": false,
+        "is_translator": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1147568389935849472/XU1ODCiA_normal.jpg",
+        "created_at": "Thu Jan 18 23:43:58 +0000 2018",
+        "id": 954137318549422100,
+        "default_profile_image": false,
+        "listed_count": 4,
+        "profile_background_color": "F5F8FA",
+        "follow_request_sent": null,
+        "location": "Toronto",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "display_url": "twitter.com/messages/compo…",
+                "url": "https://t.co/iK7kO9TqZI",
+                "indices": [
+                  0,
+                  23
+                ],
+                "expanded_url": "https://twitter.com/messages/compose?recipient_id=954137318549422081&text=love%20yourself"
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "url": "https://t.co/iK7kO9TqZI",
+        "description": "Respectful Teenager",
+        "followers_count": 157,
+        "geo_enabled": true,
+        "lang": null,
+        "profile_text_color": "333333",
+        "statuses_count": 3242,
+        "following": null,
+        "notifications": null,
+        "profile_background_tile": false,
+        "profile_use_background_image": true,
+        "id_str": "954137318549422081",
+        "name": "Slim",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1147568389935849472/XU1ODCiA_normal.jpg",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_sidebar_border_color": "C0DEED",
+        "contributors_enabled": false,
+        "default_profile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/954137318549422081/1569092899",
+        "screen_name": "Solomon_m_",
+        "time_zone": null,
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_link_color": "1DA1F2",
+        "favourites_count": 12440,
+        "is_translation_enabled": false,
+        "translator_type": "none",
+        "utc_offset": null,
+        "friends_count": 602,
+        "verified": false,
+        "has_extended_profile": true
+      },
+      "in_reply_to_user_id": null,
+      "retweeted": false,
+      "text": "Imagine not having a 7ft wingspan",
+      "created_at": "Wed Sep 25 16:43:37 +0000 2019",
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_status_id": null,
+      "in_reply_to_user_id_str": null,
+      "id_str": "1176900070085709824",
+      "coordinates": null
+    }
+  ]
+}

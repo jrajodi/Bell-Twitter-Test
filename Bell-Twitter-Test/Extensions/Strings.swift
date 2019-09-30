@@ -8,6 +8,18 @@
 
 import Foundation
 
+enum Strings: String, Localizable {
+
+    case errorTitle = "Error"
+    case successTitle = "Success"
+    case loadingText = "Loading..."
+    case loginErrorMessage = "Something went wrong!"
+    
+    var tableName: String {
+        return "Localization"
+    }
+}
+
 extension String {
     
     var urlEscaped: String {

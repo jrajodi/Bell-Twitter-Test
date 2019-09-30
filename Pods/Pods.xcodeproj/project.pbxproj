@@ -29,38 +29,45 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0534319F736D772582D1D428D57038D1 /* Pods-Bell-Twitter-TestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3A058BB8FDB211B57E6C2B455C42219 /* Pods-Bell-Twitter-TestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0632EE4A9D5E3F018137E9DFB5AA037D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		0534319F736D772582D1D428D57038D1 /* Pods-Bell-Twitter-TestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD0DC6449D2B0BB79B972B25F46764F /* Pods-Bell-Twitter-TestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A2C8A0893AE53381B359913EAB3345F /* Pods-Bell-Twitter-TestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A56D2A6C7B695B46B3866837578451 /* Pods-Bell-Twitter-TestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A88345A41A62CC7F85DE40934E22366 /* ParameterEncoding.swift */; };
 		132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A652E3C3F77B6E46228AA00907359AC0 /* Notifications.swift */; };
 		1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E73BB6063D619455DE6F14E3B3915B5 /* Alamofire-dummy.m */; };
 		1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C041FC6D88526DA2EC38F28D0709600E /* MultipartFormData.swift */; };
-		27DCE0DE62BCA53877946F915A31D12B /* Pods-Bell-Twitter-TestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA62B5FE0B9D6F0B3084B8D9DFE5A2D3 /* Pods-Bell-Twitter-TestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFF2C3EFEDAD41D7DE30BB7D2DD4C66 /* SessionDelegate.swift */; };
 		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABFE8B8CA7C83BDB674B2F73DA4C664 /* NetworkReachabilityManager.swift */; };
 		397BDB3AD19F522747648A47FB9AE68C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569FFF4D5DB777410DFF7822FC68064D /* Validation.swift */; };
-		57E52B59886766CB8DBDE3B39EA058C2 /* Pods-Bell-Twitter-Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3EA84A8C9D4BC125DAE48A60FA3D4E /* Pods-Bell-Twitter-Test-dummy.m */; };
+		57E52B59886766CB8DBDE3B39EA058C2 /* Pods-Bell-Twitter-Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7CB57ED8BDB69EC5516F470EF2D464 /* Pods-Bell-Twitter-Test-dummy.m */; };
+		5C83BBAB1F6F9D380EDC7D455BC2C620 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6701075F3A11DB375E539757C77441 /* Result.swift */; };
-		6AA8E433C127B39A2784902D8E84F4A5 /* Pods-Bell-Twitter-TestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DB8093428D00A80F0C1AF98259B9DC /* Pods-Bell-Twitter-TestUITests-dummy.m */; };
+		6AA8E433C127B39A2784902D8E84F4A5 /* Pods-Bell-Twitter-TestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C5E53E8EAE34703D6626CF62F104C8 /* Pods-Bell-Twitter-TestUITests-dummy.m */; };
 		6F24216BB125948A66925F0400830902 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C392FD2E76FA369EE20C7F2F234C05C /* AFError.swift */; };
 		931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EAAED436D1E6844556D0A61483489B /* SessionManager.swift */; };
 		933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07323ED6D0CAC036A1CF38DC270D7BF /* Timeline.swift */; };
 		98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF639A15FE659002908538B0CF71A442 /* Request.swift */; };
+		A509F07D374A7FD6D12020DF711F1CA5 /* Pods-Bell-Twitter-TestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B8C4A8B1E0E30BC48A9F7613186C3E /* Pods-Bell-Twitter-TestTests-dummy.m */; };
 		AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84007063B3F20AA98DD7D0D4D0BB260 /* TaskDelegate.swift */; };
-		B87E74DB007EC5A6A54DBC208993B0C1 /* Pods-Bell-Twitter-TestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85716C3061FC7F3682FEA3C1DB734F6A /* Pods-Bell-Twitter-TestTests-dummy.m */; };
 		BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EE4DC3D0F0BF9569DAF9AD9E4BBC67 /* Alamofire.swift */; };
 		D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C110B3086BB1697ADD3E971F47E46CD /* DispatchQueue+Alamofire.swift */; };
 		D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07EA912B094B0951E4C7163CBF7C8E6 /* Response.swift */; };
-		E35A83E9D56A40350E25E693B2A1F38D /* Pods-Bell-Twitter-Test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D89E36B9B318915BDECC949D617AD0E1 /* Pods-Bell-Twitter-Test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E35A83E9D56A40350E25E693B2A1F38D /* Pods-Bell-Twitter-Test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB45E53B629961AE58F1F4E126AC051 /* Pods-Bell-Twitter-Test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD2D103ED27D573F12E429C5B1509 /* ResponseSerialization.swift */; };
 		F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A998FE9A0B4DDEFBE37484C8E5E33F /* ServerTrustPolicy.swift */; };
 		F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A390BDC78DC95CCC326513B830704046 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0D1E32D3D443864A26A1DDCA46CC76E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
 		162463729D0CA3CB3C48A530517C6EBC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -69,6 +76,20 @@
 			remoteInfo = TwitterCore;
 		};
 		6CE0CCA310E9141688D85B045CBDB8DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0D98A3F1DDB5986495AF1DD067F7C78;
+			remoteInfo = TwitterCore;
+		};
+		7B4A791DFD7A30E03A3E5D4AF4AB4CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9267540CFAB93DC0D97D1CBCF2E62659;
+			remoteInfo = "Pods-Bell-Twitter-Test";
+		};
+		7C455DEC20D9D3DC7E3A4560D0182111 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -89,12 +110,12 @@
 			remoteGlobalIDString = 9267540CFAB93DC0D97D1CBCF2E62659;
 			remoteInfo = "Pods-Bell-Twitter-Test";
 		};
-		B47B55EE5367BDEB78C823C92B83DA64 /* PBXContainerItemProxy */ = {
+		D5995ED4F7C2B58B19B8B5EB1FCBFC97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9267540CFAB93DC0D97D1CBCF2E62659;
-			remoteInfo = "Pods-Bell-Twitter-Test";
+			remoteGlobalIDString = B60766D2DF87D6EAD1E04F386DA8986E;
+			remoteInfo = TwitterKit;
 		};
 		E98BAC3900F32632CA8EFE3732962AEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -106,66 +127,68 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02024346A8C2914551EA50ABEDB1D3C4 /* Pods-Bell-Twitter-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bell-Twitter-Test.debug.xcconfig"; sourceTree = "<group>"; };
-		0229352891AAC78B36A7830FC00A8161 /* Pods-Bell-Twitter-TestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bell-Twitter-TestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		055F897FA23887D4E9FFEA692F3EE10B /* TwitterKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwitterKit.xcconfig; sourceTree = "<group>"; };
 		09EE4DC3D0F0BF9569DAF9AD9E4BBC67 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		154EB3222B87194E7F77AED8F2D3F37D /* Pods-Bell-Twitter-TestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bell-Twitter-TestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1E73BB6063D619455DE6F14E3B3915B5 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		1EEE0A3067287F7E238DC9F64BA3F594 /* Pods-Bell-Twitter-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bell-Twitter-Test.release.xcconfig"; sourceTree = "<group>"; };
-		221C7D74ED211BFECE64860FAA3891AE /* Pods-Bell-Twitter-Test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bell-Twitter-Test-acknowledgements.plist"; sourceTree = "<group>"; };
-		2E3EA84A8C9D4BC125DAE48A60FA3D4E /* Pods-Bell-Twitter-Test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bell-Twitter-Test-dummy.m"; sourceTree = "<group>"; };
-		2E6D0D43BD71AC66F752782185528003 /* Pods-Bell-Twitter-Test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bell-Twitter-Test-frameworks.sh"; sourceTree = "<group>"; };
+		2681D9775F7362B2BF1AB1B145EF83F1 /* Pods-Bell-Twitter-TestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bell-Twitter-TestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		28B8C4A8B1E0E30BC48A9F7613186C3E /* Pods-Bell-Twitter-TestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bell-Twitter-TestTests-dummy.m"; sourceTree = "<group>"; };
+		308B0BE2D3531A770685B947533FC599 /* Pods-Bell-Twitter-TestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Bell-Twitter-TestTests.modulemap"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33C236109AEB0163C42E550B2AC56B09 /* Pods-Bell-Twitter-Test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bell-Twitter-Test-acknowledgements.plist"; sourceTree = "<group>"; };
 		36A998FE9A0B4DDEFBE37484C8E5E33F /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		3C110B3086BB1697ADD3E971F47E46CD /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		3C43AEB557E10FE74F72914CBAD6609F /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		4A88345A41A62CC7F85DE40934E22366 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		569FFF4D5DB777410DFF7822FC68064D /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		5D6AAF80F876AD622C3CD5175094CC71 /* Pods-Bell-Twitter-Test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Bell-Twitter-Test.modulemap"; sourceTree = "<group>"; };
 		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		64389A62718414150D1B61A2502F079E /* Pods-Bell-Twitter-Test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bell-Twitter-Test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		62C8C259B2309E7D2BD3F73BD2DCF9B1 /* Pods-Bell-Twitter-TestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bell-Twitter-TestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		680EC113D10FEB9160C6BFA4DFFF1A3B /* Pods-Bell-Twitter-TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bell-Twitter-TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CD5203FB317D44B148C3543E432DAA2 /* Pods-Bell-Twitter-Test-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bell-Twitter-Test-resources.sh"; sourceTree = "<group>"; };
+		6F7CB57ED8BDB69EC5516F470EF2D464 /* Pods-Bell-Twitter-Test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bell-Twitter-Test-dummy.m"; sourceTree = "<group>"; };
 		731C47A3FB5C6ECB70A881D9A77A1580 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = iOS/TwitterKit.framework; sourceTree = "<group>"; };
 		741D295113BE3758F3793526A6E808C6 /* TwitterCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwitterCore.xcconfig; sourceTree = "<group>"; };
+		74841FAF5F45B112A4CE2918570B6A0F /* Pods-Bell-Twitter-TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bell-Twitter-TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		749E5D9821114A2055DFDE377BE406D6 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = iOS/TwitterCore.framework; sourceTree = "<group>"; };
+		78A56D2A6C7B695B46B3866837578451 /* Pods-Bell-Twitter-TestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bell-Twitter-TestTests-umbrella.h"; sourceTree = "<group>"; };
+		78C5E53E8EAE34703D6626CF62F104C8 /* Pods-Bell-Twitter-TestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bell-Twitter-TestUITests-dummy.m"; sourceTree = "<group>"; };
+		79F781A27196D40D31EDE9E7D50C2CC8 /* Pods-Bell-Twitter-TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bell-Twitter-TestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7C392FD2E76FA369EE20C7F2F234C05C /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		7CFBDDE746E1A50625C110A619C03575 /* Pods-Bell-Twitter-TestTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bell-Twitter-TestTests-frameworks.sh"; sourceTree = "<group>"; };
 		7D9AB821E65B7C0CFA8A3937D382058D /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = iOS/TwitterKit.framework/TwitterKitResources.bundle; sourceTree = "<group>"; };
-		85716C3061FC7F3682FEA3C1DB734F6A /* Pods-Bell-Twitter-TestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bell-Twitter-TestTests-dummy.m"; sourceTree = "<group>"; };
-		96869CD0F518F8B2DDA4416B2A867D81 /* Pods-Bell-Twitter-Test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Bell-Twitter-Test.modulemap"; sourceTree = "<group>"; };
-		976DA7C4DC9E89C62823DC94EE86AAEC /* Pods-Bell-Twitter-TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bell-Twitter-TestTests.release.xcconfig"; sourceTree = "<group>"; };
-		98A3D5B5ABB00E77C374ECCF34168C90 /* Pods-Bell-Twitter-TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bell-Twitter-TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		83527F85EDEE39453889B079EDA7D209 /* Pods-Bell-Twitter-TestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Bell-Twitter-TestUITests.modulemap"; sourceTree = "<group>"; };
+		943321350FC4B0A0496AF25EFC2B447E /* Pods-Bell-Twitter-TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bell-Twitter-TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		95921A7430E7691337C17D5F848CC9E1 /* Pods-Bell-Twitter-Test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bell-Twitter-Test-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A07DC10CD55294647E9F04C681F180D9 /* Pods-Bell-Twitter-TestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Bell-Twitter-TestUITests.modulemap"; sourceTree = "<group>"; };
+		9FD0DC6449D2B0BB79B972B25F46764F /* Pods-Bell-Twitter-TestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bell-Twitter-TestUITests-umbrella.h"; sourceTree = "<group>"; };
 		A390BDC78DC95CCC326513B830704046 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		A529EE2BB65F5370305727A0F55F23C6 /* Pods-Bell-Twitter-TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bell-Twitter-TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4C6D4801A2B58F456BA8679995A3B73 /* Pods-Bell-Twitter-TestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bell-Twitter-TestTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A652E3C3F77B6E46228AA00907359AC0 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		A9492E74669AC83ABDA61AA69A153845 /* Pods-Bell-Twitter-TestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bell-Twitter-TestTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		AF35E77302C582CB73586F6BC4EA78C5 /* Pods-Bell-Twitter-TestUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bell-Twitter-TestUITests-Info.plist"; sourceTree = "<group>"; };
-		B05ADD85C6005FB05479D58EF7F6368C /* Pods-Bell-Twitter-TestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Bell-Twitter-TestTests.modulemap"; sourceTree = "<group>"; };
 		B07323ED6D0CAC036A1CF38DC270D7BF /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		B07EA912B094B0951E4C7163CBF7C8E6 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		B7874A8C8CCA50F1BE5C0ED8711377E8 /* Pods-Bell-Twitter-TestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bell-Twitter-TestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B90D5C7AD85AEA459BA4A35190E800B8 /* Pods-Bell-Twitter-TestTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bell-Twitter-TestTests-Info.plist"; sourceTree = "<group>"; };
+		B44D621E38F5B37BE92F672C8D9E9957 /* Pods-Bell-Twitter-Test-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bell-Twitter-Test-Info.plist"; sourceTree = "<group>"; };
 		BABFE8B8CA7C83BDB674B2F73DA4C664 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		BC630BE98FFD097BCC97F8E735E3AE87 /* Pods_Bell_Twitter_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Bell_Twitter_Test.framework; path = "Pods-Bell-Twitter-Test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE68B9A27D95C88951C116078BF27367 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
 		C041FC6D88526DA2EC38F28D0709600E /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		C0FD0221BA860EFB971BBD327D5CB941 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		C3711EF4B901361FC6633AC04AD48BE0 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		C72211490167C5C2D604A5A20139442B /* Pods-Bell-Twitter-Test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bell-Twitter-Test-frameworks.sh"; sourceTree = "<group>"; };
 		CB0822B20423CD7CAE2F0F932E8E5142 /* Pods_Bell_Twitter_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Bell_Twitter_TestUITests.framework; path = "Pods-Bell-Twitter-TestUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF639A15FE659002908538B0CF71A442 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		D3A058BB8FDB211B57E6C2B455C42219 /* Pods-Bell-Twitter-TestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bell-Twitter-TestUITests-umbrella.h"; sourceTree = "<group>"; };
-		D6DB8093428D00A80F0C1AF98259B9DC /* Pods-Bell-Twitter-TestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bell-Twitter-TestUITests-dummy.m"; sourceTree = "<group>"; };
+		D47FE419C5E900FF174CCB32F05E52BE /* Pods-Bell-Twitter-TestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bell-Twitter-TestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D84007063B3F20AA98DD7D0D4D0BB260 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		D89E36B9B318915BDECC949D617AD0E1 /* Pods-Bell-Twitter-Test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bell-Twitter-Test-umbrella.h"; sourceTree = "<group>"; };
-		D9EA9CA5CC60533AE39767C33E6DC614 /* Pods-Bell-Twitter-TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bell-Twitter-TestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DAB97CB2469B77192907F65EA52AE3AE /* Pods_Bell_Twitter_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Bell_Twitter_TestTests.framework; path = "Pods-Bell-Twitter-TestTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3FED1D3C475188004CB05E148B0DE1 /* Pods-Bell-Twitter-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bell-Twitter-Test.debug.xcconfig"; sourceTree = "<group>"; };
 		DB6701075F3A11DB375E539757C77441 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		DBFF2C3EFEDAD41D7DE30BB7D2DD4C66 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		EC2DF670429A5B45801F62D4A43A44A8 /* Pods-Bell-Twitter-Test-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bell-Twitter-Test-Info.plist"; sourceTree = "<group>"; };
+		E9249ED23B9EACFE8BE0B308BCE8651D /* Pods-Bell-Twitter-TestUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bell-Twitter-TestUITests-Info.plist"; sourceTree = "<group>"; };
 		EF6FD2D103ED27D573F12E429C5B1509 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		F162AD080D99E60B365B853333AA58CD /* Pods-Bell-Twitter-TestTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bell-Twitter-TestTests-Info.plist"; sourceTree = "<group>"; };
 		F3EAAED436D1E6844556D0A61483489B /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
-		F802430403F79CB0EAF38CE0B46E206B /* Pods-Bell-Twitter-Test-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bell-Twitter-Test-resources.sh"; sourceTree = "<group>"; };
-		FA62B5FE0B9D6F0B3084B8D9DFE5A2D3 /* Pods-Bell-Twitter-TestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bell-Twitter-TestTests-umbrella.h"; sourceTree = "<group>"; };
+		F41A93B1E0E4663882E24D48D87B7C3C /* Pods-Bell-Twitter-TestTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bell-Twitter-TestTests-resources.sh"; sourceTree = "<group>"; };
+		FDB45E53B629961AE58F1F4E126AC051 /* Pods-Bell-Twitter-Test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bell-Twitter-Test-umbrella.h"; sourceTree = "<group>"; };
+		FE1C6327DBB9A63DD08BA342B7E365CA /* Pods-Bell-Twitter-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bell-Twitter-Test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,14 +197,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		33CCF011AA3B7C9DA848C80FE49C7EF8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0632EE4A9D5E3F018137E9DFB5AA037D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +213,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F24216BB125948A66925F0400830902 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7AE513D5141C53F6390A938BD8FC234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C83BBAB1F6F9D380EDC7D455BC2C620 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,19 +252,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		30D217530C9808867A392CD646DC6BA7 /* Pods-Bell-Twitter-Test */ = {
+		330C435E83FF11A38A95F18B8F0D8673 /* Pods-Bell-Twitter-Test */ = {
 			isa = PBXGroup;
 			children = (
-				96869CD0F518F8B2DDA4416B2A867D81 /* Pods-Bell-Twitter-Test.modulemap */,
-				64389A62718414150D1B61A2502F079E /* Pods-Bell-Twitter-Test-acknowledgements.markdown */,
-				221C7D74ED211BFECE64860FAA3891AE /* Pods-Bell-Twitter-Test-acknowledgements.plist */,
-				2E3EA84A8C9D4BC125DAE48A60FA3D4E /* Pods-Bell-Twitter-Test-dummy.m */,
-				2E6D0D43BD71AC66F752782185528003 /* Pods-Bell-Twitter-Test-frameworks.sh */,
-				EC2DF670429A5B45801F62D4A43A44A8 /* Pods-Bell-Twitter-Test-Info.plist */,
-				F802430403F79CB0EAF38CE0B46E206B /* Pods-Bell-Twitter-Test-resources.sh */,
-				D89E36B9B318915BDECC949D617AD0E1 /* Pods-Bell-Twitter-Test-umbrella.h */,
-				02024346A8C2914551EA50ABEDB1D3C4 /* Pods-Bell-Twitter-Test.debug.xcconfig */,
-				1EEE0A3067287F7E238DC9F64BA3F594 /* Pods-Bell-Twitter-Test.release.xcconfig */,
+				5D6AAF80F876AD622C3CD5175094CC71 /* Pods-Bell-Twitter-Test.modulemap */,
+				95921A7430E7691337C17D5F848CC9E1 /* Pods-Bell-Twitter-Test-acknowledgements.markdown */,
+				33C236109AEB0163C42E550B2AC56B09 /* Pods-Bell-Twitter-Test-acknowledgements.plist */,
+				6F7CB57ED8BDB69EC5516F470EF2D464 /* Pods-Bell-Twitter-Test-dummy.m */,
+				C72211490167C5C2D604A5A20139442B /* Pods-Bell-Twitter-Test-frameworks.sh */,
+				B44D621E38F5B37BE92F672C8D9E9957 /* Pods-Bell-Twitter-Test-Info.plist */,
+				6CD5203FB317D44B148C3543E432DAA2 /* Pods-Bell-Twitter-Test-resources.sh */,
+				FDB45E53B629961AE58F1F4E126AC051 /* Pods-Bell-Twitter-Test-umbrella.h */,
+				DB3FED1D3C475188004CB05E148B0DE1 /* Pods-Bell-Twitter-Test.debug.xcconfig */,
+				FE1C6327DBB9A63DD08BA342B7E365CA /* Pods-Bell-Twitter-Test.release.xcconfig */,
 			);
 			name = "Pods-Bell-Twitter-Test";
 			path = "Target Support Files/Pods-Bell-Twitter-Test";
@@ -274,14 +297,22 @@
 			path = "../Target Support Files/TwitterCore";
 			sourceTree = "<group>";
 		};
-		924F7A28457CF8632D205C4542DB59F8 /* Targets Support Files */ = {
+		8E2DC5BD497CA6B3853EB28111E12985 /* Pods-Bell-Twitter-TestTests */ = {
 			isa = PBXGroup;
 			children = (
-				30D217530C9808867A392CD646DC6BA7 /* Pods-Bell-Twitter-Test */,
-				EDA0CBDA13AFA900DE505D08FE97A110 /* Pods-Bell-Twitter-TestTests */,
-				FDDD11463FA56001EFA0887BC6B17670 /* Pods-Bell-Twitter-TestUITests */,
+				308B0BE2D3531A770685B947533FC599 /* Pods-Bell-Twitter-TestTests.modulemap */,
+				2681D9775F7362B2BF1AB1B145EF83F1 /* Pods-Bell-Twitter-TestTests-acknowledgements.markdown */,
+				A4C6D4801A2B58F456BA8679995A3B73 /* Pods-Bell-Twitter-TestTests-acknowledgements.plist */,
+				28B8C4A8B1E0E30BC48A9F7613186C3E /* Pods-Bell-Twitter-TestTests-dummy.m */,
+				7CFBDDE746E1A50625C110A619C03575 /* Pods-Bell-Twitter-TestTests-frameworks.sh */,
+				F162AD080D99E60B365B853333AA58CD /* Pods-Bell-Twitter-TestTests-Info.plist */,
+				F41A93B1E0E4663882E24D48D87B7C3C /* Pods-Bell-Twitter-TestTests-resources.sh */,
+				78A56D2A6C7B695B46B3866837578451 /* Pods-Bell-Twitter-TestTests-umbrella.h */,
+				680EC113D10FEB9160C6BFA4DFFF1A3B /* Pods-Bell-Twitter-TestTests.debug.xcconfig */,
+				943321350FC4B0A0496AF25EFC2B447E /* Pods-Bell-Twitter-TestTests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-Bell-Twitter-TestTests";
+			path = "Target Support Files/Pods-Bell-Twitter-TestTests";
 			sourceTree = "<group>";
 		};
 		99C31ED912D956CC4766660D52FAB087 /* Alamofire */ = {
@@ -308,6 +339,22 @@
 			);
 			name = Alamofire;
 			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		B586488B1ED4C5FA21DE7CB82DE0BFE6 /* Pods-Bell-Twitter-TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83527F85EDEE39453889B079EDA7D209 /* Pods-Bell-Twitter-TestUITests.modulemap */,
+				D47FE419C5E900FF174CCB32F05E52BE /* Pods-Bell-Twitter-TestUITests-acknowledgements.markdown */,
+				62C8C259B2309E7D2BD3F73BD2DCF9B1 /* Pods-Bell-Twitter-TestUITests-acknowledgements.plist */,
+				78C5E53E8EAE34703D6626CF62F104C8 /* Pods-Bell-Twitter-TestUITests-dummy.m */,
+				E9249ED23B9EACFE8BE0B308BCE8651D /* Pods-Bell-Twitter-TestUITests-Info.plist */,
+				9FD0DC6449D2B0BB79B972B25F46764F /* Pods-Bell-Twitter-TestUITests-umbrella.h */,
+				74841FAF5F45B112A4CE2918570B6A0F /* Pods-Bell-Twitter-TestUITests.debug.xcconfig */,
+				79F781A27196D40D31EDE9E7D50C2CC8 /* Pods-Bell-Twitter-TestUITests.release.xcconfig */,
+			);
+			name = "Pods-Bell-Twitter-TestUITests";
+			path = "Target Support Files/Pods-Bell-Twitter-TestUITests";
 			sourceTree = "<group>";
 		};
 		B5F6A9CF0A12B0AD1E130960AF8327D8 /* Support Files */ = {
@@ -345,7 +392,7 @@
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				6CC2B58BCCD34FB1F4EBE4745C4E9376 /* Pods */,
 				1E179CC22710C30D46F64703BEAF2B8D /* Products */,
-				924F7A28457CF8632D205C4542DB59F8 /* Targets Support Files */,
+				E8819868AE09FB4390A4AC4EBD1A5AF9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -375,20 +422,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EDA0CBDA13AFA900DE505D08FE97A110 /* Pods-Bell-Twitter-TestTests */ = {
+		E8819868AE09FB4390A4AC4EBD1A5AF9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B05ADD85C6005FB05479D58EF7F6368C /* Pods-Bell-Twitter-TestTests.modulemap */,
-				B7874A8C8CCA50F1BE5C0ED8711377E8 /* Pods-Bell-Twitter-TestTests-acknowledgements.markdown */,
-				A9492E74669AC83ABDA61AA69A153845 /* Pods-Bell-Twitter-TestTests-acknowledgements.plist */,
-				85716C3061FC7F3682FEA3C1DB734F6A /* Pods-Bell-Twitter-TestTests-dummy.m */,
-				B90D5C7AD85AEA459BA4A35190E800B8 /* Pods-Bell-Twitter-TestTests-Info.plist */,
-				FA62B5FE0B9D6F0B3084B8D9DFE5A2D3 /* Pods-Bell-Twitter-TestTests-umbrella.h */,
-				D9EA9CA5CC60533AE39767C33E6DC614 /* Pods-Bell-Twitter-TestTests.debug.xcconfig */,
-				976DA7C4DC9E89C62823DC94EE86AAEC /* Pods-Bell-Twitter-TestTests.release.xcconfig */,
+				330C435E83FF11A38A95F18B8F0D8673 /* Pods-Bell-Twitter-Test */,
+				8E2DC5BD497CA6B3853EB28111E12985 /* Pods-Bell-Twitter-TestTests */,
+				B586488B1ED4C5FA21DE7CB82DE0BFE6 /* Pods-Bell-Twitter-TestUITests */,
 			);
-			name = "Pods-Bell-Twitter-TestTests";
-			path = "Target Support Files/Pods-Bell-Twitter-TestTests";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		F45F6FA6B2EFCD884D96F74F7328A922 /* Frameworks */ = {
@@ -397,22 +438,6 @@
 				749E5D9821114A2055DFDE377BE406D6 /* TwitterCore.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FDDD11463FA56001EFA0887BC6B17670 /* Pods-Bell-Twitter-TestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A07DC10CD55294647E9F04C681F180D9 /* Pods-Bell-Twitter-TestUITests.modulemap */,
-				154EB3222B87194E7F77AED8F2D3F37D /* Pods-Bell-Twitter-TestUITests-acknowledgements.markdown */,
-				0229352891AAC78B36A7830FC00A8161 /* Pods-Bell-Twitter-TestUITests-acknowledgements.plist */,
-				D6DB8093428D00A80F0C1AF98259B9DC /* Pods-Bell-Twitter-TestUITests-dummy.m */,
-				AF35E77302C582CB73586F6BC4EA78C5 /* Pods-Bell-Twitter-TestUITests-Info.plist */,
-				D3A058BB8FDB211B57E6C2B455C42219 /* Pods-Bell-Twitter-TestUITests-umbrella.h */,
-				A529EE2BB65F5370305727A0F55F23C6 /* Pods-Bell-Twitter-TestUITests.debug.xcconfig */,
-				98A3D5B5ABB00E77C374ECCF34168C90 /* Pods-Bell-Twitter-TestUITests.release.xcconfig */,
-			);
-			name = "Pods-Bell-Twitter-TestUITests";
-			path = "Target Support Files/Pods-Bell-Twitter-TestUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,19 +459,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C1B6234A11C97F1EAD72DB9399C8157 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				27DCE0DE62BCA53877946F915A31D12B /* Pods-Bell-Twitter-TestTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BAE8D6E27B3B4A0E178A5A41A4561293 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0534319F736D772582D1D428D57038D1 /* Pods-Bell-Twitter-TestUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6062772889745F94B79B1A27DE74EE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2C8A0893AE53381B359913EAB3345F /* Pods-Bell-Twitter-TestTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,17 +501,20 @@
 		};
 		A8D653FBCBDE55E24EA7797516991EBD /* Pods-Bell-Twitter-TestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDD1739E9106FC76138A168F092E0D58 /* Build configuration list for PBXNativeTarget "Pods-Bell-Twitter-TestTests" */;
+			buildConfigurationList = 6EE8784DC3B66EC6CFE6B2143F352A3C /* Build configuration list for PBXNativeTarget "Pods-Bell-Twitter-TestTests" */;
 			buildPhases = (
-				2C1B6234A11C97F1EAD72DB9399C8157 /* Headers */,
-				BB2B225F8653EF8A2409C44B4CAC0F55 /* Sources */,
-				33CCF011AA3B7C9DA848C80FE49C7EF8 /* Frameworks */,
-				D4693001AC50C3D80C884F6209E867A3 /* Resources */,
+				C6062772889745F94B79B1A27DE74EE9 /* Headers */,
+				957F82F5B7BF76FFC01AE6A1982BE35A /* Sources */,
+				C7AE513D5141C53F6390A938BD8FC234 /* Frameworks */,
+				898CD0E177956CDC6032CA34962BB03E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D58ECDA86F8467BED05F2B274F39F761 /* PBXTargetDependency */,
+				17988C7E02A33F8DA4C796080937F742 /* PBXTargetDependency */,
+				A6F04A31E3CB90E6BADE97C522E02280 /* PBXTargetDependency */,
+				3092121D41244ABCB88DA80A92295C02 /* PBXTargetDependency */,
+				C1305B51CDEDF2222582875907F8FE53 /* PBXTargetDependency */,
 			);
 			name = "Pods-Bell-Twitter-TestTests";
 			productName = "Pods-Bell-Twitter-TestTests";
@@ -569,6 +597,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		898CD0E177956CDC6032CA34962BB03E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90BE02A50158DBF547BDCD012458EE5B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -577,13 +612,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C7ED88A84D3713D180E1633D74D6E2A5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4693001AC50C3D80C884F6209E867A3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -618,19 +646,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		957F82F5B7BF76FFC01AE6A1982BE35A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A509F07D374A7FD6D12020DF711F1CA5 /* Pods-Bell-Twitter-TestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A2E7D43DFB4822B6B0C8FA960AEF0664 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6AA8E433C127B39A2784902D8E84F4A5 /* Pods-Bell-Twitter-TestUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB2B225F8653EF8A2409C44B4CAC0F55 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B87E74DB007EC5A6A54DBC208993B0C1 /* Pods-Bell-Twitter-TestTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -657,6 +685,18 @@
 			target = D0D98A3F1DDB5986495AF1DD067F7C78 /* TwitterCore */;
 			targetProxy = 6CE0CCA310E9141688D85B045CBDB8DF /* PBXContainerItemProxy */;
 		};
+		17988C7E02A33F8DA4C796080937F742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 0D1E32D3D443864A26A1DDCA46CC76E3 /* PBXContainerItemProxy */;
+		};
+		3092121D41244ABCB88DA80A92295C02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TwitterCore;
+			target = D0D98A3F1DDB5986495AF1DD067F7C78 /* TwitterCore */;
+			targetProxy = 7C455DEC20D9D3DC7E3A4560D0182111 /* PBXContainerItemProxy */;
+		};
 		3AB6045A067C33CFC2EB74F779F2C122 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
@@ -669,62 +709,30 @@
 			target = 9267540CFAB93DC0D97D1CBCF2E62659 /* Pods-Bell-Twitter-Test */;
 			targetProxy = A3AF81BD30774FDE82622B1443B7D3CB /* PBXContainerItemProxy */;
 		};
+		A6F04A31E3CB90E6BADE97C522E02280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Bell-Twitter-Test";
+			target = 9267540CFAB93DC0D97D1CBCF2E62659 /* Pods-Bell-Twitter-Test */;
+			targetProxy = 7B4A791DFD7A30E03A3E5D4AF4AB4CC9 /* PBXContainerItemProxy */;
+		};
 		B4902AF53C5EEE44170685014465706F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TwitterKit;
 			target = B60766D2DF87D6EAD1E04F386DA8986E /* TwitterKit */;
 			targetProxy = E98BAC3900F32632CA8EFE3732962AEE /* PBXContainerItemProxy */;
 		};
-		D58ECDA86F8467BED05F2B274F39F761 /* PBXTargetDependency */ = {
+		C1305B51CDEDF2222582875907F8FE53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Bell-Twitter-Test";
-			target = 9267540CFAB93DC0D97D1CBCF2E62659 /* Pods-Bell-Twitter-Test */;
-			targetProxy = B47B55EE5367BDEB78C823C92B83DA64 /* PBXContainerItemProxy */;
+			name = TwitterKit;
+			target = B60766D2DF87D6EAD1E04F386DA8986E /* TwitterKit */;
+			targetProxy = D5995ED4F7C2B58B19B8B5EB1FCBFC97 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0B165412D3AD8005C77A969DA79906AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9EA9CA5CC60533AE39767C33E6DC614 /* Pods-Bell-Twitter-TestTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Bell-Twitter-TestTests/Pods-Bell-Twitter-TestTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Bell-Twitter-TestTests/Pods-Bell-Twitter-TestTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		0EFE6BE5978911A3AA3DC42EB747976E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EEE0A3067287F7E238DC9F64BA3F594 /* Pods-Bell-Twitter-Test.release.xcconfig */;
+			baseConfigurationReference = FE1C6327DBB9A63DD08BA342B7E365CA /* Pods-Bell-Twitter-Test.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -825,6 +833,44 @@
 			};
 			name = Debug;
 		};
+		1531445E31D338B5093A274F69B8B7AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 680EC113D10FEB9160C6BFA4DFFF1A3B /* Pods-Bell-Twitter-TestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Bell-Twitter-TestTests/Pods-Bell-Twitter-TestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bell-Twitter-TestTests/Pods-Bell-Twitter-TestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		2425D2EC1E656FB351A97FD00DFA8956 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 741D295113BE3758F3793526A6E808C6 /* TwitterCore.xcconfig */;
@@ -844,7 +890,7 @@
 		};
 		293E1BE8B877AFB663B22B79CA3B5AB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02024346A8C2914551EA50ABEDB1D3C4 /* Pods-Bell-Twitter-Test.debug.xcconfig */;
+			baseConfigurationReference = DB3FED1D3C475188004CB05E148B0DE1 /* Pods-Bell-Twitter-Test.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -882,7 +928,7 @@
 		};
 		36D20E8A3AF8D7E3955D128BDAE25576 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98A3D5B5ABB00E77C374ECCF34168C90 /* Pods-Bell-Twitter-TestUITests.release.xcconfig */;
+			baseConfigurationReference = 79F781A27196D40D31EDE9E7D50C2CC8 /* Pods-Bell-Twitter-TestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -921,7 +967,7 @@
 		};
 		3F547074DDE500DAD905B2DBECACF93A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A529EE2BB65F5370305727A0F55F23C6 /* Pods-Bell-Twitter-TestUITests.debug.xcconfig */;
+			baseConfigurationReference = 74841FAF5F45B112A4CE2918570B6A0F /* Pods-Bell-Twitter-TestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1008,9 +1054,9 @@
 			};
 			name = Debug;
 		};
-		C7A74CD5273F28999C77E0E1C001FB09 /* Release */ = {
+		B52E16D8BDDB44E855ACB6D426D1B262 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 976DA7C4DC9E89C62823DC94EE86AAEC /* Pods-Bell-Twitter-TestTests.release.xcconfig */;
+			baseConfigurationReference = 943321350FC4B0A0496AF25EFC2B447E /* Pods-Bell-Twitter-TestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1206,6 +1252,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6EE8784DC3B66EC6CFE6B2143F352A3C /* Build configuration list for PBXNativeTarget "Pods-Bell-Twitter-TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1531445E31D338B5093A274F69B8B7AE /* Debug */,
+				B52E16D8BDDB44E855ACB6D426D1B262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6FE90C77BD61B5F55D67CD15A0BF7F1E /* Build configuration list for PBXAggregateTarget "TwitterKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1229,15 +1284,6 @@
 			buildConfigurations = (
 				75BBB760DFD877E344322B54D29DFE64 /* Debug */,
 				F94FD07C591B17B7E61A1528AB9BCB3B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EDD1739E9106FC76138A168F092E0D58 /* Build configuration list for PBXNativeTarget "Pods-Bell-Twitter-TestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0B165412D3AD8005C77A969DA79906AC /* Debug */,
-				C7A74CD5273F28999C77E0E1C001FB09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

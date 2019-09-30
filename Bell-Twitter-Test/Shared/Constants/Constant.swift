@@ -10,15 +10,15 @@ import Foundation
 
 struct APIEndPoints {
     static let baseURL = "https://api.twitter.com/1.1/"
-    static let searchTweets = "/search/tweets.json?q="
 }
 
 struct TableCells {
-    static let tweetCell = "TweetCell"
+    static let tweetCell = "TweetsTableViewCell"
 }
 
 struct SettingsConstants {
     static let radius = "radius"
+    static let radiusValue = 5
 }
 
 struct TwitterKeys {

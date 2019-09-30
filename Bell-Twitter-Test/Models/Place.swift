@@ -9,20 +9,17 @@
 import Foundation
 
 struct Place: Decodable {
-    
-    // MARK: - Properties
+
     var boundingBox: BoundingBox?
     var fullName: String?
     var country: String?
-    
-    // MARK: - Enum for defining the keys of your response data
+
     enum CodingKeys: String, CodingKey {
         case boundingBox = "bounding_box"
         case fullName = "full_name"
         case country
     }
     
-    // MARK: - Decoder for parsing the data into your Custom Model
     init(from decoder: Decoder) throws {
         
         do {
