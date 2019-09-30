@@ -12,4 +12,4 @@ Search the tweets by typing any hash tags, name etc
 # Unit Test
 Native Unit test class XCTestCase is being used in this assignment. Tried to cover unit test of all the classes
 
-![alt text](https://raw.githubusercontent.com/jrajodi/Bell-Twitter-Test/master/screenshots/IMG_8778.PNG =200x356)
+![alt text](https://raw.githubusercontent.com/jrajodi/Bell-Twitter-Test/master/screenshots/IMG_8778.PNG | width=100)
