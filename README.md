@@ -6,8 +6,8 @@ Fetch the tweets based on location and radius
 Search the tweets by typing any hash tags, name etc
 
 # Use of Cocoa Pods
-TwitterKit
-Alamofire
+* TwitterKit
+* Alamofire
 
 # Unit Test
 Native Unit test class XCTestCase is being used in this assignment. Tried to cover unit test of all the classes
