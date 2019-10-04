@@ -1,25 +1,30 @@
 //
-//  TweetDetailsViewController.swift
+//  TweetsDetailsView.swift
 //  Bell-Twitter-Test
 //
-//  Created by Jigs on 2019-09-29.
+//  Created by Jigs on 2019-10-03.
 //  Copyright © 2019 Jignesh Rajodiya. All rights reserved.
 //
 
+import Foundation
 import UIKit
+import MapKit
 import TwitterKit
+import CoreLocation
 
-class TweetDetailsViewController: UIViewController {
+class TweetsDetailsView: UIViewController {
 
     @IBOutlet weak var tweetContainerView: UIView!
     @IBOutlet weak var btnReTweet: UIButton!
     @IBOutlet weak var btnFavorite: UIButton!
     
+    var presenter: TweetsDetailsPresenterProtocol?
     var tweet: TWTRTweet?
-    private var loadingSpinner: UIAlertController!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
+        presenter?.showTweetDetailsView()
     }
     
     private func setupView() {
@@ -27,9 +32,12 @@ class TweetDetailsViewController: UIViewController {
         
         btnFavorite.setRoundCorner()
         btnReTweet.setRoundCorner()
-        
-        loadingSpinner = getLoadingAlert()
-        
+    }
+}
+
+extension TweetsDetailsView: TweetsDetailsViewProtocol {
+    func showTweetDetailsView(with tweet: TWTRTweet) {
+        self.tweet = tweet
         let twitterView = TWTRTweetView(tweet: tweet, style: TWTRTweetViewStyle.compact)
         twitterView.backgroundColor = .clear
         tweetContainerView.addSubview(twitterView)
@@ -42,7 +50,7 @@ class TweetDetailsViewController: UIViewController {
     }
 }
 
-extension TweetDetailsViewController {
+extension TweetsDetailsView {
     
     @IBAction func actionMakeFavorite(_ sender: UIButton) {
         if (TWTRTwitter.sharedInstance().sessionStore.hasLoggedInUsers()) {
@@ -73,13 +81,11 @@ extension TweetDetailsViewController {
     }
 }
 
-extension TweetDetailsViewController {
+extension TweetsDetailsView {
     
     private func markFavourite() {
-        guard let tweetId = tweet?.tweetID else { return }
-        show(loadingSpinner)
+        guard let tweetId = self.tweet?.tweetID else { return }
         APIManager.shared.favoriteTweet(forID: tweetId) { (success) in
-            self.loadingSpinner.hide()
             if success {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                     self.showAlert(Strings.successTitle.localized, message:"")
@@ -89,10 +95,8 @@ extension TweetDetailsViewController {
     }
     
     private func retweet() {
-        guard let tweetId = tweet?.tweetID else { return }
-        show(loadingSpinner)
+        guard let tweetId = self.tweet?.tweetID else { return }
         APIManager.shared.retweet(forTweetRequestId: "99", tweetId: tweetId) { (success) in
-            self.loadingSpinner.hide()
             if success {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                     self.showAlert(Strings.successTitle.localized, message:"")

@@ -32,14 +32,9 @@ class TweetMapWireFrame: TweetsMapWireFrameProtocol {
     }
     
     func presentTweetDetailsScreen(from view: TweetsMapViewProtocol, forTweet tweet: TWTRTweet) {
-        //let postDetailViewController = PostDetailWireFrame.createPostDetailModule(forPost: post)
-
-        let storyboard = UIStoryboard(name: "TweetDetails", bundle: nil)
-        let tweetDetailVC: TweetDetailsViewController = storyboard.instantiateInitialViewController() as! TweetDetailsViewController
-        tweetDetailVC.tweet = tweet
-        
+        let tweetDetailViewController = TweetsDetailsWireFrame.createTweetsDetailsViewModule(forTweet: tweet)
         if let sourceView = view as? UIViewController {
-            sourceView.parent?.navigationController?.pushViewController(tweetDetailVC, animated: true)
+            sourceView.parent?.navigationController?.pushViewController(tweetDetailViewController, animated: true)
         }
     }
 }
