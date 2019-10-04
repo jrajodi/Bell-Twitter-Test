@@ -8,7 +8,6 @@
 
 import XCTest
 @testable import TwitterKit
-@testable import Bell_Twitter_Test
 
 class TweetsListViewTests: XCTestCase {
 
@@ -17,15 +16,10 @@ class TweetsListViewTests: XCTestCase {
     
     override func setUp() {
         let storyboard = UIStoryboard(name: "TweetsList", bundle: nil)
-        tweetsView = storyboard.instantiateInitialViewController() as! TweetsListViewController
-        _ = tweetsView.view
+        tweetsView = storyboard.instantiateInitialViewController() as? TweetsListViewController
         tableView = tweetsView.tweetsListTableView
     }
 
-    override func tearDown() {
-        
-    }
-    
     func testIfControllerHasTableView() {
         XCTAssertNotNil(tableView, "Controll should have the table view")
     }

@@ -1,26 +1,27 @@
 //
-//  TweetsMapViewController.swift
+//  TweetMapView.swift
 //  Bell-Twitter-Test
 //
-//  Created by Jigs on 2019-09-29.
+//  Created by Jigs on 2019-10-03.
 //  Copyright © 2019 Jignesh Rajodiya. All rights reserved.
 //
 
+import Foundation
 import UIKit
 import MapKit
 import TwitterKit
 import CoreLocation
 
-class TweetsMapViewController: UIViewController {
-
+class TweetMapView: UIViewController {
+    
     @IBOutlet weak var tweetsMapView: MKMapView!
     @IBOutlet weak var radiusSlider: UISlider!
     @IBOutlet weak var radiusValue: UILabel!
     
-    let presenter = TweetsMapPresenter()
-    private var tweetsArray = [Tweet]()
+    var presenter: TweetsMapPresenterProtocol?
     private var loadingSpinner: UIAlertController!
-    let step: Float = 5
+    private var tweets: [Tweet] = []
+    private let step: Float = 5
     private var radius: Int = 0
     private var currentLocation: CLLocation!
     
@@ -30,8 +31,7 @@ class TweetsMapViewController: UIViewController {
     }
     
     private func setupView() {
-        presenter.attachView(self)
-        
+    
         loadingSpinner = getLoadingAlert()
         LocationManager.sharedInstance.delegate = self
         LocationManager.sharedInstance.startUpdatingLocation()
@@ -39,7 +39,7 @@ class TweetsMapViewController: UIViewController {
         tweetsMapView.delegate = self
         
         Timer.scheduledTimer(withTimeInterval: 60, repeats: true) { timer in
-            self.presenter.fetchMostRecentTweets(radius: self.radius)
+            self.presenter?.fetchMostRecentTweets(radius: self.radius)
         }
         
         radius = SettingsConstants.radiusValue
@@ -52,7 +52,7 @@ class TweetsMapViewController: UIViewController {
     }
 }
 
-extension TweetsMapViewController: LocationManagerDelegate {
+extension TweetMapView: LocationManagerDelegate {
     
     func tracingLocation(currentLocation: CLLocation) {
         LocationManager.sharedInstance.stopUpdatingLocation()
@@ -74,7 +74,7 @@ extension TweetsMapViewController: LocationManagerDelegate {
         }
         
         showCircle(coordinate: annotation.coordinate, radius: CLLocationDistance(radius*1000))
-        presenter.fetchMostRecentTweets(radius: getRadius())
+        presenter?.fetchMostRecentTweets(radius: radius)
     }
     
     func showCircle(coordinate: CLLocationCoordinate2D, radius: CLLocationDistance) {
@@ -87,7 +87,30 @@ extension TweetsMapViewController: LocationManagerDelegate {
     }
 }
 
-extension TweetsMapViewController {
+extension TweetMapView: TweetsMapViewProtocol {
+    
+    func showTweets(with tweets: [Tweet]) {
+        self.tweets = tweets
+        createAnnomationsAndLoadOnMap()
+    }
+    
+    func showTweetDetails(with tweet: TWTRTweet) {
+        self.presenter?.showTweetDetails(forTweet: tweet)
+    }
+    
+    func showLoading() {
+        if !loadingSpinner.isBeingPresented {
+            present(loadingSpinner, animated: true, completion: nil)
+        }
+    }
+    
+    func hideLoading() {
+        loadingSpinner.hide()
+    }
+    
+}
+
+extension TweetMapView {
     
     @objc func sliderValueDidChange(_ sender:UISlider!){
         let roundedStepValue = round(sender.value / step) * step
@@ -101,30 +124,7 @@ extension TweetsMapViewController {
             tweetsMapView.removeOverlay(overlay)
         }
         showCircle(coordinate: currentLocation.coordinate, radius: CLLocationDistance(roundedStepValue*1000))
-        presenter.fetchMostRecentTweets(radius: Int(roundedStepValue))
-    }
-    
-    func showLoading() {
-        show(loadingSpinner)
-    }
-    
-    func hideLoading() {
-        loadingSpinner.hide()
-    }
-
-    func reloadTweetsOnMap(data: [Tweet]) {
-        tweetsArray = data
-        createAnnomationsAndLoadOnMap()
-    }
-    
-    func showTweetDetailView(_ tweet: TWTRTweet) {
-    
-        let storyboard = UIStoryboard(name: "TweetDetails", bundle: nil)
-        let tweetDetailVC: TweetDetailsViewController = storyboard.instantiateInitialViewController() as! TweetDetailsViewController
-        tweetDetailVC.tweet = tweet
-        
-        self.parent?.navigationController?.pushViewController(tweetDetailVC, animated: true)
-
+        presenter?.fetchMostRecentTweets(radius: Int(roundedStepValue))
     }
     
     private func createAnnomationsAndLoadOnMap() {
@@ -135,31 +135,29 @@ extension TweetsMapViewController {
                 return
             }
         }
+        //tweets(addAnnotations)
+        tweets.forEach({ addAnnotations(tweet: $0) })
+    }
     
-        var arrAnnotations = [MKPointAnnotation]()
-        for tweet in tweetsArray {
-            let annotation = TweetAnnotation()
-            annotation.title = tweet.name
-            annotation.tweetId = tweet.id
-            
-            if let arrCoordinates = tweet.place?.boundingBox?.coordinates?.first?.first {
-                annotation.coordinate = CLLocationCoordinate2D(latitude: arrCoordinates[1], longitude: arrCoordinates[0])
-            }
-            
-            annotation.subtitle = (tweet.place?.fullName ?? "Montreal") + ", " + (tweet.place?.country ?? "Canada")
-            arrAnnotations.append(annotation)
+    private func addAnnotations(tweet: Tweet) {
+        let annotation = TweetsAnnotation()
+        annotation.title = tweet.name
+        annotation.tweetId = tweet.id
+        
+        if let arrCoordinates = tweet.place?.boundingBox?.coordinates?.first?.first {
+            annotation.coordinate = CLLocationCoordinate2D(latitude: arrCoordinates[1], longitude: arrCoordinates[0])
         }
         
-        tweetsMapView.addAnnotations(arrAnnotations)
+        annotation.subtitle = (tweet.place?.fullName ?? "Montreal") + ", " + (tweet.place?.country ?? "Canada")
+        tweetsMapView.addAnnotation(annotation)
     }
 }
 
-class TweetAnnotation: MKPointAnnotation {
+class TweetsAnnotation: MKPointAnnotation {
     var tweetId: Int = 0
 }
 
-
-extension TweetsMapViewController: MKMapViewDelegate {
+extension TweetMapView: MKMapViewDelegate {
     
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         
@@ -181,8 +179,8 @@ extension TweetsMapViewController: MKMapViewDelegate {
     
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         
-        if let annotation = view.annotation as? TweetAnnotation {
-            presenter.fetchTweetDetails(annotation.tweetId)
+        if let annotation = view.annotation as? TweetsAnnotation {
+            self.presenter?.fetchTweetDetails(tweetId: annotation.tweetId)
         }
     }
     

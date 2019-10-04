@@ -34,7 +34,7 @@ class BaseViewController: UIViewController {
         btnToggleDisplay.isSelected = false
         btnToggleDisplay.addTarget(self, action: #selector(actionToggelTweetsView(_:)), for: .touchUpInside)
         
-        showTweetsMapView()
+        showSubView(showMapView: true)
 
         let rightButtonsView = UIStackView(arrangedSubviews: [btnToggleDisplay])
         rightButtonsView.axis = .horizontal
@@ -44,30 +44,13 @@ class BaseViewController: UIViewController {
     }
     
     @objc func actionToggelTweetsView(_ sender: UIButton) {
-        if sender.isSelected {
-            self.navigationController?.navigationBar.topItem?.title = "Most Recent Tweets"
-            showTweetsMapView()
-            sender.isSelected = false
-        } else {
-            self.navigationController?.navigationBar.topItem?.title = "Search"
-            showTweetsListView()
-            sender.isSelected = true
-        }
+        showSubView(showMapView: sender.isSelected)
+        sender.isSelected = !sender.isSelected
     }
     
-    func showTweetsListView() {
-        let storyboard = UIStoryboard(name: "TweetsList", bundle: nil)
-        let controller: TweetsListViewController = storyboard.instantiateInitialViewController() as! TweetsListViewController
-        controller.view.bounds = self.view.bounds;
-        controller.willMove(toParent: self)
-        self.view.addSubview(controller.view)
-        self.addChild(controller)
-        controller.didMove(toParent: self)
-    }
-    
-    func showTweetsMapView() {
-        let storyboard = UIStoryboard(name: "TweetsMap", bundle: nil)
-        let controller: TweetsMapViewController = storyboard.instantiateInitialViewController() as! TweetsMapViewController
+    func showSubView(showMapView: Bool) {
+        self.navigationController?.navigationBar.topItem?.title = showMapView ? "Most Recent Tweets" : "Search"
+        let controller = showMapView ? TweetMapWireFrame.createTweetsMapViewModule() : TweetListWireFrame.createTweetsListViewModule()
         controller.view.bounds = self.view.bounds;
         controller.willMove(toParent: self)
         self.view.addSubview(controller.view)
