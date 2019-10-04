@@ -8,6 +8,7 @@
 
 import Foundation
 
+/** Enum to define API Paths */
 public enum APIPath: String {
     case tweetRequest
     case postedTweet

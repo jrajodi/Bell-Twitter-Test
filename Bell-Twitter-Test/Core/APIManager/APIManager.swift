@@ -14,6 +14,7 @@ class APIManager {
     
     let apiClient = TWTRAPIClient()
 
+    /** Parameters of your request */
     private struct NetworkParameter {
         static let tweetRequestId = "tweetRequestId"
         static let tweetId = "tweetId"
@@ -26,8 +27,13 @@ class APIManager {
         static let popular = "popular"
     }
     
+    // Shared Instance of APIManager
     static let shared = APIManager()
     
+    /** Search the tweets based on radius, keyword and location
+    * - Parameters: radius
+    * - Parameters: completion to return your async response
+    */
     func searchWithRadius(_ radius: Int, completion: @escaping (TweetsResponse?) -> (Void)) {
         let location = LocationManager.sharedInstance.lastLocation
         let geocode = "\(location?.coordinate.latitude ?? 45.494862),\(location?.coordinate.longitude ?? -73.580650),\(radius)km"
@@ -50,6 +56,10 @@ class APIManager {
         }
     }
     
+    /** Search the tweets based on keyword and location
+     * - Parameters: keyword
+     * - Parameters: completion to return your async response
+    */
     func searchTweetsWith(_ keyword: String, completion: @escaping (TweetsResponse?) -> (Void)) {
         let params = [
             "q": keyword.urlEscaped,
@@ -67,12 +77,21 @@ class APIManager {
         }
     }
     
+    /** Fetch tweet details based on tweetId
+     * - Parameters: tweetId
+     * - Parameters: completion to return your async response
+    */
     func fetchTweetDetail(tweetId: Int, completion: @escaping (TWTRTweet?, Error?) -> (Void)) {
         TWTRAPIClient().loadTweet(withID: "\(tweetId)") { (tweet, error) in
             completion(tweet, error)
         }
     }
     
+    /** Make retweet the current tweet
+     * - Parameters: tweetRequestId
+     * - Parameters: tweetId
+     * - Parameters: completion to return your async response
+    */
     func retweet(forTweetRequestId tweetRequestId: String, tweetId: String, completion: @escaping (Bool) -> Void) {
         
         let urlString = APIPath.postedTweet.url
@@ -86,6 +105,10 @@ class APIManager {
         }
     }
 
+    /** Make the tweet favorite
+     * - Parameters: id
+     * - Parameters: completion to return your async response
+    */
     func favoriteTweet(forID id: String, completion: @escaping (Bool) -> Void) {
         
         let urlString = APIPath.favorite.url

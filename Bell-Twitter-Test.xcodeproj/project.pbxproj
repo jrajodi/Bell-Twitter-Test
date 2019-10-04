@@ -77,6 +77,23 @@
 		19D552EA2347B65300B9BD58 /* TweetsDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D552E32347B65300B9BD58 /* TweetsDetailsView.swift */; };
 		19D552EB2347B65300B9BD58 /* TweetsDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D552E42347B65300B9BD58 /* TweetsDetails.storyboard */; };
 		19D552EC2347B65300B9BD58 /* TweetsDetailsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D552E62347B65300B9BD58 /* TweetsDetailsProtocols.swift */; };
+		19D552ED2347C34500B9BD58 /* TweetMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D552A12346E44500B9BD58 /* TweetMapPresenter.swift */; };
+		19D552EE2347C39B00B9BD58 /* TweetMapWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D552A72346EE9300B9BD58 /* TweetMapWireFrame.swift */; };
+		19D552EF2347C39E00B9BD58 /* TweetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D552A52346EC6E00B9BD58 /* TweetMapView.swift */; };
+		19D552F12347C3A700B9BD58 /* TweetsMapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D552A32346EA6100B9BD58 /* TweetsMapInteractor.swift */; };
+		19D552F22347C3AA00B9BD58 /* TweetsMapProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D5529F2346E32900B9BD58 /* TweetsMapProtocols.swift */; };
+		19D552F32347C45200B9BD58 /* TweetListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D552D12346FF0400B9BD58 /* TweetListPresenter.swift */; };
+		19D552F42347C45700B9BD58 /* TweetsListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D552D32346FFE600B9BD58 /* TweetsListInteractor.swift */; };
+		19D552F52347C45A00B9BD58 /* TweetsListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D552CF2346FE4500B9BD58 /* TweetsListProtocols.swift */; };
+		19D552F62347C45D00B9BD58 /* TweetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D552D62347006900B9BD58 /* TweetListView.swift */; };
+		19D552F72347C46000B9BD58 /* TweetListWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D552D9234701CD00B9BD58 /* TweetListWireFrame.swift */; };
+		19D552F82347C4E100B9BD58 /* TweetsDetailsWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D552DD2347B65300B9BD58 /* TweetsDetailsWireFrame.swift */; };
+		19D552F92347C4E400B9BD58 /* TweetsDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D552E32347B65300B9BD58 /* TweetsDetailsView.swift */; };
+		19D552FA2347C4E700B9BD58 /* TweetsDetailsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D552E62347B65300B9BD58 /* TweetsDetailsProtocols.swift */; };
+		19D552FB2347C4E900B9BD58 /* TweetsDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D552E12347B65300B9BD58 /* TweetsDetailsPresenter.swift */; };
+		19D552FC2347C94300B9BD58 /* TweetMap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D552A92346EF2700B9BD58 /* TweetMap.storyboard */; };
+		19D552FD2347C94A00B9BD58 /* TweetList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D552D52347006900B9BD58 /* TweetList.storyboard */; };
+		19D552FE2347C94E00B9BD58 /* TweetsDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D552E42347B65300B9BD58 /* TweetsDetails.storyboard */; };
 		1B9EB3FB579DF74B161FC17C /* Pods_Bell_Twitter_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDC7ACC9FABD030B4BCAFD9 /* Pods_Bell_Twitter_TestTests.framework */; };
 		C492E95F0FC88F483F07D4B4 /* Pods_Bell_Twitter_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3406CA5593ABE91388B671CF /* Pods_Bell_Twitter_Test.framework */; };
 		DD07651D811F7062FF70A499 /* Pods_Bell_Twitter_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C017297C790C9F1D40154C9F /* Pods_Bell_Twitter_TestUITests.framework */; };
@@ -715,8 +732,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				19824A7023420FB200A3244B /* TweetsTableViewCell.xib in Resources */,
+				19D552FC2347C94300B9BD58 /* TweetMap.storyboard in Resources */,
+				19D552FD2347C94A00B9BD58 /* TweetList.storyboard in Resources */,
 				19824A5623420E2E00A3244B /* statuses.json in Resources */,
 				19824A6A23420F8A00A3244B /* Base.storyboard in Resources */,
+				19D552FE2347C94E00B9BD58 /* TweetsDetails.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -913,18 +933,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19D552F92347C4E400B9BD58 /* TweetsDetailsView.swift in Sources */,
+				19D552FB2347C4E900B9BD58 /* TweetsDetailsPresenter.swift in Sources */,
 				19824A5F23420EDD00A3244B /* BoundingBox.swift in Sources */,
+				19D552F12347C3A700B9BD58 /* TweetsMapInteractor.swift in Sources */,
 				19824A5E23420EC500A3244B /* UIViewController.swift in Sources */,
 				19824A6723420F2000A3244B /* Localizable.swift in Sources */,
 				19824A5823420E8200A3244B /* ConfigureCell.swift in Sources */,
 				19824A73234215CF00A3244B /* TweetsMapViewTests.swift in Sources */,
 				19824A5D23420EBB00A3244B /* Place.swift in Sources */,
+				19D552F32347C45200B9BD58 /* TweetListPresenter.swift in Sources */,
 				19824A6623420F1200A3244B /* APIPaths.swift in Sources */,
+				19D552EF2347C39E00B9BD58 /* TweetMapView.swift in Sources */,
 				19824A6823420F3400A3244B /* Data.swift in Sources */,
+				19D552F82347C4E100B9BD58 /* TweetsDetailsWireFrame.swift in Sources */,
 				19824A6323420F0000A3244B /* Strings.swift in Sources */,
+				19D552ED2347C34500B9BD58 /* TweetMapPresenter.swift in Sources */,
 				19824A4D2342084E00A3244B /* TweetsListViewTests.swift in Sources */,
+				19D552F62347C45D00B9BD58 /* TweetListView.swift in Sources */,
 				19824A5923420E8800A3244B /* Tweet.swift in Sources */,
+				19D552EE2347C39B00B9BD58 /* TweetMapWireFrame.swift in Sources */,
 				19824A5023420DB800A3244B /* TweetsResponse.swift in Sources */,
+				19D552F52347C45A00B9BD58 /* TweetsListProtocols.swift in Sources */,
+				19D552F72347C46000B9BD58 /* TweetListWireFrame.swift in Sources */,
+				19D552FA2347C4E700B9BD58 /* TweetsDetailsProtocols.swift in Sources */,
 				19824A5C23420EB100A3244B /* UITableView.swift in Sources */,
 				19824A75234216D700A3244B /* TweetDetailsViewTests.swift in Sources */,
 				19824A5723420E7000A3244B /* UIView.swift in Sources */,
@@ -935,6 +967,8 @@
 				19824A6923420F8300A3244B /* BaseViewController.swift in Sources */,
 				19824A6523420F0A00A3244B /* LocationManager.swift in Sources */,
 				19824A6423420F0500A3244B /* Defaults.swift in Sources */,
+				19D552F22347C3AA00B9BD58 /* TweetsMapProtocols.swift in Sources */,
+				19D552F42347C45700B9BD58 /* TweetsListInteractor.swift in Sources */,
 				19824A4F23420D9F00A3244B /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
